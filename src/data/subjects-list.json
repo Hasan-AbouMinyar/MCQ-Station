@@ -1,0 +1,16 @@
+[
+  {
+    "id": "interface",
+    "name": "USER INTERFACE DESIGN",
+    "description": "مادة تصميم واجهات",
+    "icon": "mdi-laptop",
+    "color": "#8E8E93"
+  },
+  {
+    "id": "myapp",
+    "name": "اختبار",
+    "description": "اختبار تجريبي",
+    "icon": "mdi-laptop",
+    "color": "#28A745"
+  }
+]
