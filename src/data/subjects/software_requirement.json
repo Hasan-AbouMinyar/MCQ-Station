@@ -2671,5 +2671,350 @@
       { "id": "d", "text": "Document Analysis فقط" }
     ],
     "correctAnswer": "a"
+  },
+  {
+    "id": 148,
+    "question": "أي عبارة صحيحة بخصوص استخدام تقنيات elicitation في المشاريع المختلفة؟",
+    "chapter": {
+      "id": "ch7",
+      "name": "Requirements Elicitation (2)"
+    },
+    "options": [
+      { "id": "a", "text": "معظم المشاريع لا يمكن أن تستخدم المقابلات أو الورش" },
+      { "id": "b", "text": "معظم المشاريع يمكن أن تستفيد من المقابلات (interviews) وورش العمل (workshops)" },
+      { "id": "c", "text": "الاستبيانات هي التقنية الوحيدة المناسبة لكل المشاريع" },
+      { "id": "d", "text": "الملاحظة هي البديل الإجباري عن كل التقنيات الأخرى" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 149,
+    "question": "متى تكون Focus groups أنسب من workshops؟",
+    "chapter": {
+      "id": "ch7",
+      "name": "Requirements Elicitation (2)"
+    },
+    "options": [
+      { "id": "a", "text": "عند وجود عدد قليل من المستخدمين الداخليين" },
+      { "id": "b", "text": "في أنظمة مضمنة لا يتفاعل معها المستخدم مباشرة" },
+      { "id": "c", "text": "في برمجيات mass-market ذات قاعدة كبيرة من المستخدمين الخارجيين مع وصول محدود لممثلين عنهم" },
+      { "id": "d", "text": "فقط في المشاريع الأكاديمية الصغيرة" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 150,
+    "question": "عند تطوير تطبيق جديد تمامًا (new application)، ما المجموعة الأنسب من تقنيات elicitation حسب الشابتر؟",
+    "chapter": {
+      "id": "ch7",
+      "name": "Requirements Elicitation (2)"
+    },
+    "options": [
+      { "id": "a", "text": "Questionnaires فقط" },
+      { "id": "b", "text": "Stakeholder interviews + workshops + system interface analysis" },
+      { "id": "c", "text": "Observation فقط" },
+      { "id": "d", "text": "Document analysis فقط" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 151,
+    "question": "ما الغرض الرئيس من التحضير (Preparing for Elicitation) قبل جلسة elicitation ميسَّرة؟",
+    "chapter": {
+      "id": "ch7",
+      "name": "Requirements Elicitation (2)"
+    },
+    "options": [
+      { "id": "a", "text": "تقليل مشاركة الـstakeholders قدر الإمكان" },
+      { "id": "b", "text": "ضمان الاستفادة القصوى من وقت جميع المشاركين" },
+      { "id": "c", "text": "اختيار لغة البرمجة المناسبة" },
+      { "id": "d", "text": "إعداد خطة الاختبار التفصيلية" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 152,
+    "question": "أيٌّ مما يلي يُعد جزءًا من التحضير لجلسة elicitation واحدة؟",
+    "chapter": {
+      "id": "ch7",
+      "name": "Requirements Elicitation (2)"
+    },
+    "options": [
+      { "id": "a", "text": "تقرير الاختبار النهائي للنظام" },
+      { "id": "b", "text": "تحديد نطاق (scope) الجلسة" },
+      { "id": "c", "text": "اختيار فريق الصيانة بعد الإطلاق" },
+      { "id": "d", "text": "تصميم قاعدة البيانات المنطقية" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 153,
+    "question": "ما المقصود بـ \"Educate stakeholders\" أثناء تنفيذ نشاط elicitation؟",
+    "chapter": {
+      "id": "ch7",
+      "name": "Requirements Elicitation (2)"
+    },
+    "options": [
+      { "id": "a", "text": "تدريبهم على البرمجة بلغة النظام" },
+      { "id": "b", "text": "شرح كيفية التقاط معلوماتهم وإخبارهم أنك سترسل لهم المواد للمراجعة بعد الجلسة" },
+      { "id": "c", "text": "إبلاغهم بعدم حاجتهم لمراجعة أي مخرجات" },
+      { "id": "d", "text": "منعهم من طرح الأسئلة أثناء الجلسة" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 154,
+    "question": "ما الدور الرئيسي للـscribe في جلسة elicitation ميسَّرة؟",
+    "chapter": {
+      "id": "ch7",
+      "name": "Requirements Elicitation (2)"
+    },
+    "options": [
+      { "id": "a", "text": "اتخاذ القرارات الخاصة بالمتطلبات" },
+      { "id": "b", "text": "إدارة النقاش بين الـstakeholders" },
+      { "id": "c", "text": "كتابة ملاحظات دقيقة أثناء النقاش مع عدم المشاركة النشطة في الحوار" },
+      { "id": "d", "text": "تقييم أداء الفريق بعد الجلسة" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 155,
+    "question": "أي نشاط يُعد جزءًا من \"Following up after Elicitation\" بعد إكمال النشاط؟",
+    "chapter": {
+      "id": "ch7",
+      "name": "Requirements Elicitation (2)"
+    },
+    "options": [
+      { "id": "a", "text": "كتابة الكود المبدئي للنظام" },
+      { "id": "b", "text": "تنظيم ومشاركة الملاحظات مع دمج المدخلات من مصادر متعددة" },
+      { "id": "c", "text": "تنفيذ اختبارات الأداء" },
+      { "id": "d", "text": "إغلاق كل القضايا المفتوحة بدون تتبّع" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 156,
+    "question": "كيف يُنصَح بالتعامل مع القضايا المفتوحة (open issues) بعد جلسات elicitation؟",
+    "chapter": {
+      "id": "ch7",
+      "name": "Requirements Elicitation (2)"
+    },
+    "options": [
+      { "id": "a", "text": "تجاهلها حتى تظهر المشكلة في مرحلة الاختبار" },
+      { "id": "b", "text": "تدوينها في أداة تتبّع القضايا مع تعيين مالك (owner) وتاريخ استحقاق والملاحظات المرتبطة" },
+      { "id": "c", "text": "حذفها من الملاحظات لتقليل التعقيد" },
+      { "id": "d", "text": "تركها في الذاكرة دون توثيق" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 157,
+    "question": "في تصنيف مدخلات العملاء، الجملة: \"Increase market share in region X by Y percent within Z months\" تُعتبر مثالًا على:",
+    "chapter": {
+      "id": "ch7",
+      "name": "Requirements Elicitation (2)"
+    },
+    "options": [
+      { "id": "a", "text": "Business requirement" },
+      { "id": "b", "text": "User requirement" },
+      { "id": "c", "text": "Functional requirement" },
+      { "id": "d", "text": "Constraint" }
+    ],
+    "correctAnswer": "a"
+  },
+  {
+    "id": 158,
+    "question": "الجملة التي تبدأ غالبًا بـ \"I need to ...\" من قِبل المستخدم تمثّل عادةً:",
+    "chapter": {
+      "id": "ch7",
+      "name": "Requirements Elicitation (2)"
+    },
+    "options": [
+      { "id": "a", "text": "Business rule" },
+      { "id": "b", "text": "User requirement (مثل هدف أو مهمة عمل يحتاج المستخدم لتنفيذها)" },
+      { "id": "c", "text": "Quality attribute" },
+      { "id": "d", "text": "Data requirement" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 159,
+    "question": "وجود عبارات مثل \"Must comply with ...\" أو \"If ..., then ...\" أو \"Must be calculated according to ...\" يشير غالبًا إلى أي نوع من المدخلات؟",
+    "chapter": {
+      "id": "ch7",
+      "name": "Requirements Elicitation (2)"
+    },
+    "options": [
+      { "id": "a", "text": "Business rule" },
+      { "id": "b", "text": "User requirement" },
+      { "id": "c", "text": "External interface requirement" },
+      { "id": "d", "text": "Quality attribute" }
+    ],
+    "correctAnswer": "a"
+  },
+  {
+    "id": 160,
+    "question": "الجملة: \"The user must be able to sort the project list in forward and reverse alphabetical order.\" تُصنَّف كـ:",
+    "chapter": {
+      "id": "ch7",
+      "name": "Requirements Elicitation (2)"
+    },
+    "options": [
+      { "id": "a", "text": "Business requirement" },
+      { "id": "b", "text": "Functional requirement" },
+      { "id": "c", "text": "Constraint" },
+      { "id": "d", "text": "Solution idea" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 161,
+    "question": "الجملة: \"The mobile software must respond quickly to touch commands.\" تعتبر مثالًا على:",
+    "chapter": {
+      "id": "ch7",
+      "name": "Requirements Elicitation (2)"
+    },
+    "options": [
+      { "id": "a", "text": "Quality attribute (مثل الأداء)" },
+      { "id": "b", "text": "Business rule" },
+      { "id": "c", "text": "Data requirement" },
+      { "id": "d", "text": "External interface requirement" }
+    ],
+    "correctAnswer": "a"
+  },
+  {
+    "id": 162,
+    "question": "عبارات مثل: \"Must read signals from ...\" أو \"Must send messages to ...\" غالبًا تعبّر عن:",
+    "chapter": {
+      "id": "ch7",
+      "name": "Requirements Elicitation (2)"
+    },
+    "options": [
+      { "id": "a", "text": "Functional requirements" },
+      { "id": "b", "text": "External interface requirements" },
+      { "id": "c", "text": "Business requirements" },
+      { "id": "d", "text": "Solution ideas" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 163,
+    "question": "عبارات مثل: \"Must be written in ...\" أو \"Cannot exceed ...\" أو \"Must use ...\" تُشير غالبًا إلى:",
+    "chapter": {
+      "id": "ch7",
+      "name": "Requirements Elicitation (2)"
+    },
+    "options": [
+      { "id": "a", "text": "Quality attributes" },
+      { "id": "b", "text": "Constraints على التصميم أو التنفيذ" },
+      { "id": "c", "text": "Data requirements" },
+      { "id": "d", "text": "User requirements" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 164,
+    "question": "الجملة: \"The ZIP code has five digits, followed by an optional hyphen and four digits that default to 0000.\" تُعتبر مثالًا على:",
+    "chapter": {
+      "id": "ch7",
+      "name": "Requirements Elicitation (2)"
+    },
+    "options": [
+      { "id": "a", "text": "Business requirement" },
+      { "id": "b", "text": "Business rule" },
+      { "id": "c", "text": "Data requirement" },
+      { "id": "d", "text": "Constraint" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 165,
+    "question": "الجملة: \"The phone has to allow the user to swipe with a finger to navigate between screens.\" تُصنَّف في الشابتر كـ:",
+    "chapter": {
+      "id": "ch7",
+      "name": "Requirements Elicitation (2)"
+    },
+    "options": [
+      { "id": "a", "text": "Functional requirement" },
+      { "id": "b", "text": "Business requirement" },
+      { "id": "c", "text": "Solution idea (فكرة حل وليست requirement بحد ذاتها)" },
+      { "id": "d", "text": "Data requirement" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 166,
+    "question": "أي مؤشر من التالي يدلّ على أنك ربما اقتربت من الانتهاء من elicitation لمنطقة معيّنة؟",
+    "chapter": {
+      "id": "ch7",
+      "name": "Requirements Elicitation (2)"
+    },
+    "options": [
+      { "id": "a", "text": "كل use case جديد يُنتج Functional requirements جديدة مهمّة" },
+      { "id": "b", "text": "المستخدمون يكرّرون نفس القضايا التي نوقشت سابقًا" },
+      { "id": "c", "text": "المستخدمون ما زالوا يقترحون متطلبات عالية الأولوية" },
+      { "id": "d", "text": "المطورون والمختبرون يطرحون عددًا كبيرًا من الأسئلة الجديدة" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 167,
+    "question": "أي خيار يُعتَبَر علامة على أن المتطلبات المقترحة حديثًا ربما ليست ضمن نطاق الإصدار الحالي؟",
+    "chapter": {
+      "id": "ch7",
+      "name": "Requirements Elicitation (2)"
+    },
+    "options": [
+      { "id": "a", "text": "المستخدمون يقترحون قدرات قد تُضاف \"في وقت ما خلال عمر المنتج\" وليس في المنتج المحدَّد الآن" },
+      { "id": "b", "text": "المستخدمون يضيفون حالات بسيطة مفقودة في سيناريوهات سابقة" },
+      { "id": "c", "text": "المطورون يطلبون توضيحًا لقيود الأداء" },
+      { "id": "d", "text": "المختبرون يراجعون حالات الاختبار الحالية" }
+    ],
+    "correctAnswer": "a"
+  },
+  {
+    "id": 168,
+    "question": "أي ممارسة من التالي تساعد تحديدًا على اكتشاف المتطلبات المفقودة (Finding missing requirements)؟",
+    "chapter": {
+      "id": "ch7",
+      "name": "Requirements Elicitation (2)"
+    },
+    "options": [
+      { "id": "a", "text": "الاعتماد فقط على متطلبات عالية المستوى دون تفصيل" },
+      { "id": "b", "text": "تفكيك المتطلبات عالية المستوى (high-level) إلى تفاصيل كافية توضّح المطلوب" },
+      { "id": "c", "text": "تجاهل الـuser classes الأقل أهمية" },
+      { "id": "d", "text": "عدم تمثيل المتطلبات بأي شكل رسومي" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 169,
+    "question": "أي من التالي ذُكر كطريقة للمساعدة في اكتشاف متطلبات مفقودة؟",
+    "chapter": {
+      "id": "ch7",
+      "name": "Requirements Elicitation (2)"
+    },
+    "options": [
+      { "id": "a", "text": "التركيز فقط على القيم النموذجية وإهمال القيم الحدّية" },
+      { "id": "b", "text": "التحقق من قيم الحدود (boundary values) بحثًا عن متطلبات مفقودة" },
+      { "id": "c", "text": "استخدام شكل واحد فقط لتمثيل المتطلبات" },
+      { "id": "d", "text": "منع بعض user classes من تقديم مدخلاتهم لتقليل التعقيد" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 170,
+    "question": "أي ممارسة تندرج تحت \"Represent requirements information in more than one way\" للمساعدة في كشف المتطلبات المفقودة؟",
+    "chapter": {
+      "id": "ch7",
+      "name": "Requirements Elicitation (2)"
+    },
+    "options": [
+      { "id": "a", "text": "كتابة المتطلبات نصيًا فقط دون أي تمثيل آخر" },
+      { "id": "b", "text": "استخدام مزيج من الوصف النصي والرسوم (مثل use case diagrams أو context diagrams) لنفس المتطلبات" },
+      { "id": "c", "text": "الاعتماد فقط على جداول البيانات لتمثيل كل شيء" },
+      { "id": "d", "text": "ترجمة المتطلبات إلى لغات بشرية متعددة بدون أي تغيير في الشكل" }
+    ],
+    "correctAnswer": "b"
   }
 ]
