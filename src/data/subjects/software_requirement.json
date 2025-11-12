@@ -1951,6 +1951,305 @@
       { "id": "d", "text": "غياب Business objectives المعرّفة بوضوح يساعد على إنهاء المشروع بسرعة" }
     ],
     "correctAnswer": "c"
+  },
+  {
+    "id": 100,
+    "question": "النجاح في Software Requirements يعتمد أساسًا على:",
+    "chapter": {
+      "id": "ch5",
+      "name": "Finding the Voice of the User"
+    },
+    "options": [
+      { "id": "a", "text": "اختيار أسرع لغة برمجة" },
+      { "id": "b", "text": "تقليل عدد الاجتماعات مع العميل" },
+      { "id": "c", "text": "الحصول على صوت المستخدم (voice of the user) قريبًا من أذن المطوّر قدر الإمكان" },
+      { "id": "d", "text": "التركيز على تصميم الواجهة فقط" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 101,
+    "question": "من الخطوات الأساسية لـ Finding the Voice of the User:",
+    "chapter": {
+      "id": "ch5",
+      "name": "Finding the Voice of the User"
+    },
+    "options": [
+      { "id": "a", "text": "تحديد فئات المستخدمين (user classes) المختلفة للمنتج" },
+      { "id": "b", "text": "اختيار ممثلين عن كل user class ومجموعات stakeholders الأخرى" },
+      { "id": "c", "text": "الاتفاق على من هم متخذي القرارات في المتطلبات (requirements decision makers)" },
+      { "id": "d", "text": "جميع ما سبق" }
+    ],
+    "correctAnswer": "d"
+  },
+  {
+    "id": 102,
+    "question": "expectation gap هي:",
+    "chapter": {
+      "id": "ch5",
+      "name": "Finding the Voice of the User"
+    },
+    "options": [
+      { "id": "a", "text": "فجوة بين التصميم وقاعدة البيانات" },
+      { "id": "b", "text": "الفرق بين المنتج الذي يتوقعه العملاء والمنتج الذي يبنيه المطورون فعليًا" },
+      { "id": "c", "text": "فجوة بين التكلفة المتوقعة والتكلفة الفعلية فقط" },
+      { "id": "d", "text": "اختلاف في واجهات المستخدم بين الإصدارات" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 103,
+    "question": "أي مما يلي سبب من أسباب حدوث الـ expectation gap؟",
+    "chapter": {
+      "id": "ch5",
+      "name": "Finding the Voice of the User"
+    },
+    "options": [
+      { "id": "a", "text": "تكرار مراجعة المتطلبات مع جميع المستخدمين" },
+      { "id": "b", "text": "جمع متطلبات من عدد محدود من العملاء أو من مديرهم مرة أو مرتين ثم البدء في البرمجة مباشرة" },
+      { "id": "c", "text": "تحديد واضح للـbusiness objectives" },
+      { "id": "d", "text": "وجود BA يتحدث مع كل الفئات الصحيحة من المستخدمين" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 104,
+    "question": "من مسؤوليات الـBusiness Analyst لتقليل الـ expectation gap:",
+    "chapter": {
+      "id": "ch5",
+      "name": "Finding the Voice of the User"
+    },
+    "options": [
+      { "id": "a", "text": "كتابة الكود بدل المطوّرين" },
+      { "id": "b", "text": "جمع مجموعة واسعة من مدخلات المستخدم، تحليلها وتوضيحها، وتحديد ما يجب بناؤه بدقة" },
+      { "id": "c", "text": "منع المطوّرين من التواصل مع المستخدمين" },
+      { "id": "d", "text": "التركيز فقط على الواجهات الرسومية" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 105,
+    "question": "عدم استثمار الوقت الكافي في عملية Software Requirements iterative يؤدي غالبًا إلى:",
+    "chapter": {
+      "id": "ch5",
+      "name": "Finding the Voice of the User"
+    },
+    "options": [
+      { "id": "a", "text": "تقليل إعادة العمل (rework)" },
+      { "id": "b", "text": "الانتهاء قبل الموعد دائمًا" },
+      { "id": "c", "text": "rework، missed deadlines، cost overruns، وcustomer dissatisfaction" },
+      { "id": "d", "text": "تحسين جودة المنتج تلقائيًا" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 106,
+    "question": "User class يُعرَّف بأنه:",
+    "chapter": {
+      "id": "ch5",
+      "name": "Finding the Voice of the User"
+    },
+    "options": [
+      { "id": "a", "text": "مجموعة من المطورين داخل المشروع" },
+      { "id": "b", "text": "قسم التسويق في الشركة" },
+      { "id": "c", "text": "مجموعة فرعية من مستخدمي المنتج ضمن مجموعة العملاء ثم ضمن مجموعة الـstakeholders" },
+      { "id": "d", "text": "مجموعة من الخوادم التي تستضيف النظام" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 107,
+    "question": "العلاقة الصحيحة بين stakeholders، customers، users، user classes هي أن:",
+    "chapter": {
+      "id": "ch5",
+      "name": "Finding the Voice of the User"
+    },
+    "options": [
+      { "id": "a", "text": "stakeholders ⊂ customers ⊂ users ⊂ user classes" },
+      { "id": "b", "text": "user classes ⊂ users ⊂ customers ⊂ stakeholders" },
+      { "id": "c", "text": "users وcustomers مجموعتان منفصلتان تمامًا" },
+      { "id": "d", "text": "user classes ليست ضمن أي مجموعة أخرى" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 108,
+    "question": "يمكن تجميع المستخدمين في user classes مميزة اعتمادًا على اختلافات مثل:",
+    "chapter": {
+      "id": "ch5",
+      "name": "Finding the Voice of the User"
+    },
+    "options": [
+      { "id": "a", "text": "ألوانهم المفضلة" },
+      { "id": "b", "text": "نظام التشغيل الداخلي للسيرفر" },
+      { "id": "c", "text": "مستوى صلاحياتهم، المهام التي يؤدونها، الميزات التي يستخدمونها، تكرار الاستخدام، خبرتهم، المنصة، اللغة، وطبيعة التفاعل مباشر أم غير مباشر" },
+      { "id": "d", "text": "اسم الجامعة التي تخرّجوا منها" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 109,
+    "question": "طريقة أفضل لتحديد user classes هي أن تبدأ من:",
+    "chapter": {
+      "id": "ch5",
+      "name": "Finding the Voice of the User"
+    },
+    "options": [
+      { "id": "a", "text": "نوع المؤسسة فقط (بنك كبير، بنك صغير، ...)" },
+      { "id": "b", "text": "اسم الدولة التي يعمل فيها المستخدم" },
+      { "id": "c", "text": "المهام (tasks) التي سيؤديها المستخدمون مع النظام ثم اشتقاق user classes مثل teller, loan officer, branch manager" },
+      { "id": "d", "text": "لغة البرمجة المستخدمة في المشروع" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 110,
+    "question": "Favored user classes هي الفئات التي:",
+    "chapter": {
+      "id": "ch5",
+      "name": "Finding the Voice of the User"
+    },
+    "options": [
+      { "id": "a", "text": "لا يُسمح لها باستخدام النظام لأسباب أمنية" },
+      { "id": "b", "text": "يتم تجاهل متطلباتها في العادة" },
+      { "id": "c", "text": "يكون رضاها مرتبطًا بشدة بتحقيق business objectives للمشروع وتُعطى أولوية عند تعارض المتطلبات" },
+      { "id": "d", "text": "هي فقط العملاء الذين يدفعون المال للمشروع" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 111,
+    "question": "Disfavored user classes هي فئات المستخدمين التي:",
+    "chapter": {
+      "id": "ch5",
+      "name": "Finding the Voice of the User"
+    },
+    "options": [
+      { "id": "a", "text": "يُبنى النظام أساسًا لتلبية احتياجاتهم" },
+      { "id": "b", "text": "غير مسموح لها باستخدام المنتج لأسباب قانونية أو أمنية أو سلامة، وقد نضيف خصائص تُصعّب عليهم استخدامه" },
+      { "id": "c", "text": "لا تحتاج إلى أي أمن أو تحكم في الوصول" },
+      { "id": "d", "text": "هي نفس favored user classes" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 112,
+    "question": "أي عبارة صحيحة عن باقي user classes التي ليست favored ولا disfavored ولا ignored؟",
+    "chapter": {
+      "id": "ch5",
+      "name": "Finding the Voice of the User"
+    },
+    "options": [
+      { "id": "a", "text": "تُعتبر أقل أهمية ولا تؤخذ متطلباتهم" },
+      { "id": "b", "text": "تُعد ذات أهمية متساوية في تعريف متطلبات المنتج" },
+      { "id": "c", "text": "يُمنع إشراكهم في أي خطوة من المشروع" },
+      { "id": "d", "text": "يُستخدمون فقط للاختبار بعد الإطلاق" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 113,
+    "question": "تقنية “expand then contract” في تحديد user classes تتضمن عادةً:",
+    "chapter": {
+      "id": "ch5",
+      "name": "Finding the Voice of the User"
+    },
+    "options": [
+      { "id": "a", "text": "البدء بقائمة صغيرة وثابتة من user classes وعدم تغييرها" },
+      { "id": "b", "text": "سؤال project sponsor عن من يتوقع أن يستخدم النظام، ثم عصف ذهني لقائمة كبيرة من user classes ثم دمجها وتقليلها لمجموعة أصغر" },
+      { "id": "c", "text": "استخدام لغة برمجة معينة لتوليد user classes" },
+      { "id": "d", "text": "تحديد user classes بناءً على أسماء الموظفين فقط" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 114,
+    "question": "بعد تحديد user classes، من الأفضل توثيق خصائصها ومسؤولياتها ومواقعها المادية في:",
+    "chapter": {
+      "id": "ch5",
+      "name": "Finding the Voice of the User"
+    },
+    "options": [
+      { "id": "a", "text": "وثيقة عشوائية غير رسمية" },
+      { "id": "b", "text": "Software Requirements Specification (SRS) أو requirements plan للمشروع" },
+      { "id": "c", "text": "كود المصدر مباشرة" },
+      { "id": "d", "text": "ملف إعدادات الخادم (server config)" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 115,
+    "question": "من أفضل الممارسات في Connecting with User Representatives أن يكون:",
+    "chapter": {
+      "id": "ch5",
+      "name": "Finding the Voice of the User"
+    },
+    "options": [
+      { "id": "a", "text": "مشاركة المستخدمين في بداية المشروع فقط ثم إبعادهم" },
+      { "id": "b", "text": "إشراك المستخدمين طوال دورة حياة التطوير وليس فقط في مرحلة المتطلبات المعزولة في البداية" },
+      { "id": "c", "text": "إلغاء كل قنوات الاتصال المباشرة بين المطورين والمستخدمين" },
+      { "id": "d", "text": "الاتصال بالمستخدمين عبر تقارير مكتوبة فقط بدون نقاش" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 116,
+    "question": "يمكن للمطوّرين أداء دور الـBusiness Analyst والتحدث مباشرةً مع المستخدمين بشكل فعّال عندما يكون المشروع:",
+    "chapter": {
+      "id": "ch5",
+      "name": "Finding the Voice of the User"
+    },
+    "options": [
+      { "id": "a", "text": "كبيرًا جدًا بعدد هائل من المستخدمين" },
+      { "id": "b", "text": "صغيرًا، بعدد قليل من المستخدمين وعدد محدود من المطوّرين" },
+      { "id": "c", "text": "مشروعًا حكوميًا مع آلاف الجهات" },
+      { "id": "d", "text": "نظامًا موزعًا عالميًا بعدة فرق" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 117,
+    "question": "Product champion هو:",
+    "chapter": {
+      "id": "ch5",
+      "name": "Finding the Voice of the User"
+    },
+    "options": [
+      { "id": "a", "text": "مطور مسؤول عن كتابة الكود بالكامل" },
+      { "id": "b", "text": "عضو أساسي من مجتمع المستخدمين يمثّل user class معيّنة ويتولى كواجهة رئيسية مع الـBA، يجمع المتطلبات من زملائه ويحل التناقضات" },
+      { "id": "c", "text": "مدير المشروع المالي" },
+      { "id": "d", "text": "فريق اختبار مستقل" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 118,
+    "question": "من خصائص أفضل Product champions:",
+    "chapter": {
+      "id": "ch5",
+      "name": "Finding the Voice of the User"
+    },
+    "options": [
+      { "id": "a", "text": "لا يملكون أي رؤية للنظام الجديد ولا يهتمون بفوائده" },
+      { "id": "b", "text": "ضعف في التواصل وعدم احترام من زملائهم" },
+      { "id": "c", "text": "امتلاك رؤية واضحة للنظام، الحماس لفوائده، القدرة على التواصل بفعالية، فهم عميق لمجال التطبيق وبيئة التشغيل" },
+      { "id": "d", "text": "التركيز فقط على الجدول الزمني للمشروع" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 119,
+    "question": "في موضوع Resolving Conflicting Requirements، ما الذي يجب أن يحدده قادة المشروع؟",
+    "chapter": {
+      "id": "ch5",
+      "name": "Finding the Voice of the User"
+    },
+    "options": [
+      { "id": "a", "text": "فقط لغة البرمجة المستخدمة" },
+      { "id": "b", "text": "من سيقرر عند حدوث تعارض في المتطلبات، ومن يتخذ القرار النهائي عند عدم الوصول لاتفاق، وإلى من تُصعَّد القضايا المهمة" },
+      { "id": "c", "text": "عدد الاجتماعات الأسبوعية" },
+      { "id": "d", "text": "شكل واجهة المستخدم الرئيسية" }
+    ],
+    "correctAnswer": "b"
   }
 ]
-
