@@ -1351,5 +1351,606 @@
       { "id": "d", "text": "Modeling – Refactoring – Debugging – Maintenance" }
     ],
     "correctAnswer": "b"
+  },
+  {
+    "id": 60,
+    "question": "ما المقصود بـ expectation gap في مشاريع البرمجيات؟",
+    "chapter": {
+      "id": "ch3",
+      "name": "Requirements from the Customer’s Perspective"
+    },
+    "options": [
+      { "id": "a", "text": "الفرق بين التصميم النهائي وكود التنفيذ" },
+      { "id": "b", "text": "الفجوة بين ما يحتاجه العملاء فعلاً وما يسلّمه المطوّرون بناءً على ما سمعوه في البداية" },
+      { "id": "c", "text": "الفجوة بين ميزانية المشروع وتكلفته الحقيقية" },
+      { "id": "d", "text": "اختلاف وجهات النظر بين فريق الاختبار وفريق التطوير فقط" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 61,
+    "question": "أفضل طريقة لتقليل الـ expectation gap هي:",
+    "chapter": {
+      "id": "ch3",
+      "name": "Requirements from the Customer’s Perspective"
+    },
+    "options": [
+      { "id": "a", "text": "تقليل عدد الاجتماعات مع العملاء لتوفير الوقت" },
+      { "id": "b", "text": "الاعتماد على وثيقة مكتوبة واحدة فقط في بداية المشروع" },
+      { "id": "c", "text": "ترتيب نقاط تواصل متكررة مع ممثلي العملاء مثل المقابلات وrequirements reviews وUI walkthroughs" },
+      { "id": "d", "text": "تأجيل التواصل مع العميل إلى ما بعد الانتهاء من البرمجة" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 62,
+    "question": "من هو الـ stakeholder؟",
+    "chapter": {
+      "id": "ch3",
+      "name": "Requirements from the Customer’s Perspective"
+    },
+    "options": [
+      { "id": "a", "text": "فقط المستخدم الذي يتعامل مع النظام مباشرة" },
+      { "id": "b", "text": "أي شخص أو مجموعة أو منظمة تشارك في المشروع أو تتأثر بنتائجه أو يمكنها التأثير عليه" },
+      { "id": "c", "text": "المطوّر الذي يكتب الكود فقط" },
+      { "id": "d", "text": "فريق الاختبار فقط" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 63,
+    "question": "أي عبارة صحيحة بخصوص الـ stakeholders؟",
+    "chapter": {
+      "id": "ch3",
+      "name": "Requirements from the Customer’s Perspective"
+    },
+    "options": [
+      { "id": "a", "text": "يجب أن يكون جميع الـstakeholders من داخل فريق التطوير" },
+      { "id": "b", "text": "الـstakeholders دائمًا من خارج المؤسسة فقط" },
+      { "id": "c", "text": "يمكن أن يكون الـstakeholders داخليين أو خارجيين بالنسبة لفريق المشروع والمنظمة المطوِّرة" },
+      { "id": "d", "text": "الـstakeholders هم فقط من يدفعون تكلفة المشروع" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 64,
+    "question": "من هو الـ customer في سياق Requirements Engineering؟",
+    "chapter": {
+      "id": "ch3",
+      "name": "Requirements from the Customer’s Perspective"
+    },
+    "options": [
+      { "id": "a", "text": "أي شخص يختبر النظام قبل الإطلاق فقط" },
+      { "id": "b", "text": "شخص أو منظمة تحصل على فائدة مباشرة أو غير مباشرة من المنتج، وهو subset من الـstakeholders" },
+      { "id": "c", "text": "فريق التطوير الذي يبني النظام" },
+      { "id": "d", "text": "فقط مدير المشروع" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 65,
+    "question": "أي خيار يوضّح دور software customers بشكل صحيح؟",
+    "chapter": {
+      "id": "ch3",
+      "name": "Requirements from the Customer’s Perspective"
+    },
+    "options": [
+      { "id": "a", "text": "يمكنهم فقط استخدام النظام ولا يحق لهم طلب تعديلات" },
+      { "id": "b", "text": "لا علاقة لهم بتمويل أو اختيار النظام" },
+      { "id": "c", "text": "قد يطلبون أو يدفعون أو يختارون أو يحدّدون أو يستخدمون المنتج أو يستقبلون مخرجاته" },
+      { "id": "d", "text": "هم المسؤولون عن كتابة الكود" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 66,
+    "question": "من هم الـ end users؟",
+    "chapter": {
+      "id": "ch3",
+      "name": "Requirements from the Customer’s Perspective"
+    },
+    "options": [
+      { "id": "a", "text": "أي شخص يسمع عن النظام في الإعلان" },
+      { "id": "b", "text": "مجموعة من المطوّرين الذين يكتبون المتطلبات" },
+      { "id": "c", "text": "مجموعة من العملاء الذين يديرون العقود" },
+      { "id": "d", "text": "العملاء الذين سيستخدمون المنتج فعليًا، بشكل مباشر أو غير مباشر، وهم subset من الـcustomers" }
+    ],
+    "correctAnswer": "d"
+  },
+  {
+    "id": 67,
+    "question": "أي عبارة صحيحة عن الـ direct و الـ indirect users؟",
+    "chapter": {
+      "id": "ch3",
+      "name": "Requirements from the Customer’s Perspective"
+    },
+    "options": [
+      { "id": "a", "text": "الـdirect users يستقبلون مخرجات النظام فقط دون التعامل معه" },
+      { "id": "b", "text": "الـindirect users هم فقط أفراد فريق التطوير" },
+      { "id": "c", "text": "الـdirect users يتعاملون hands-on مع النظام، بينما الـindirect users يستقبلون المخرجات دون استخدام النظام مباشرة" },
+      { "id": "d", "text": "لا يوجد فرق بين direct وindirect users" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 68,
+    "question": "أي علاقة صحيحة بين developers وcustomers للحصول على excellent requirements؟",
+    "chapter": {
+      "id": "ch3",
+      "name": "Requirements from the Customer’s Perspective"
+    },
+    "options": [
+      { "id": "a", "text": "يعمل المطوّرون وحدهم ثم يعرضون المنتج النهائي على العملاء" },
+      { "id": "b", "text": "يجب أن تتم كل القرارات عن طريق الإدارة فقط" },
+      { "id": "c", "text": "تعاون فعّال (collaborative partnership) بين المطورين والعملاء، خاصة المستخدمين الفعليين" },
+      { "id": "d", "text": "عدم إشراك العملاء في المتطلبات لتفادي التعقيد" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 69,
+    "question": "ما هو الدور النموذجي للـ Business Analyst (BA) في علاقة customer–development partnership؟",
+    "chapter": {
+      "id": "ch3",
+      "name": "Requirements from the Customer’s Perspective"
+    },
+    "options": [
+      { "id": "a", "text": "كتابة الكود فقط" },
+      { "id": "b", "text": "القيام بمهام التسويق والإعلان" },
+      { "id": "c", "text": "أن يكون نقطة الاتصال الرئيسية التي تُشكّل وتُدير الشراكة التعاونية بين المطورين والعملاء" },
+      { "id": "d", "text": "إدارة الخوادم وقواعد البيانات فقط" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 70,
+    "question": "أي حق من حقوق Requirements Bill of Rights for Software Customers؟",
+    "chapter": {
+      "id": "ch3",
+      "name": "Requirements from the Customer’s Perspective"
+    },
+    "options": [
+      { "id": "a", "text": "أن يتوقّع العملاء أن يتكلم الـBAs بلغة تقنية معقّدة فقط" },
+      { "id": "b", "text": "أن يتوقّع العملاء أن يقرر المطوّرون المتطلبات بدون استشارتهم" },
+      { "id": "c", "text": "أن يتوقّع العملاء من الـBAs أن يتكلموا لغتهم ويتعلّموا عن أعمالهم وأهدافهم" },
+      { "id": "d", "text": "أن يرفض العملاء أي شرح لعملية المتطلبات" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 71,
+    "question": "أي من التالي مذكور كحق من حقوق العملاء؟",
+    "chapter": {
+      "id": "ch3",
+      "name": "Requirements from the Customer’s Perspective"
+    },
+    "options": [
+      { "id": "a", "text": "الحق في تغيير المتطلبات في أي وقت بدون نقاش أو تقييم أثر" },
+      { "id": "b", "text": "الحق في عدم مراجعة أي متطلبات مكتوبة" },
+      { "id": "c", "text": "الحق في سماع أفكار وبدائل لحلول المتطلبات المختلفة من الفريق الفني" },
+      { "id": "d", "text": "الحق في تجاهل جودة المنتج والتركيز على الوظائف فقط" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 72,
+    "question": "أي من التالي يُعد مسؤولية على العملاء حسب Requirements Bill of Responsibilities for Software Customers؟",
+    "chapter": {
+      "id": "ch3",
+      "name": "Requirements from the Customer’s Perspective"
+    },
+    "options": [
+      { "id": "a", "text": "ترك الـBAs والمطوّرين يكتشفون مجال العمل وحدهم" },
+      { "id": "b", "text": "تخصيص الوقت اللازم لتقديم المتطلبات وتوضيحها ومراجعتها" },
+      { "id": "c", "text": "تأجيل القرارات الخاصة بالمتطلبات قدر الإمكان" },
+      { "id": "d", "text": "عدم احترام تقييم المطوّر لتكلفة المتطلبات وإمكانية تنفيذها" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 73,
+    "question": "أي من السلوكيات التالية ينسجم مع مسؤوليات العملاء؟",
+    "chapter": {
+      "id": "ch3",
+      "name": "Requirements from the Customer’s Perspective"
+    },
+    "options": [
+      { "id": "a", "text": "تقديم مدخلات غامضة وغير محددة عن المتطلبات" },
+      { "id": "b", "text": "عدم مراجعة النماذج الأولية (prototypes)" },
+      { "id": "c", "text": "وضع أولويات واقعية للمتطلبات بالتعاون مع المطوّرين" },
+      { "id": "d", "text": "تغيير المتطلبات بدون إبلاغ فريق التطوير" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 74,
+    "question": "في موضوع Creating a culture that respects requirements، ما أول خطوة لمعالجة مقاومة المشاركة في تطوير المتطلبات؟",
+    "chapter": {
+      "id": "ch3",
+      "name": "Requirements from the Customer’s Perspective"
+    },
+    "options": [
+      { "id": "a", "text": "إجبار الجميع على حضور الاجتماعات دون توضيح الأسباب" },
+      { "id": "b", "text": "تجاهل الأشخاص الذين يعتقدون أن المتطلبات غير ضرورية" },
+      { "id": "c", "text": "محاولة فهم لماذا يقاوم الناس المشاركة في تطوير المتطلبات" },
+      { "id": "d", "text": "إلغاء كل عمليات التوثيق والتركيز على الكود" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 75,
+    "question": "عند محاولة إقناع المطوّرين والمديرين والعملاء بأهمية المتطلبات، يجب التأكيد على:",
+    "chapter": {
+      "id": "ch3",
+      "name": "Requirements from the Customer’s Perspective"
+    },
+    "options": [
+      { "id": "a", "text": "أن المتطلبات تضييع وقت ولا داعي لها" },
+      { "id": "b", "text": "الألم والمشاكل التي حدثت في الماضي بسبب مشكلات في المتطلبات" },
+      { "id": "c", "text": "أن المشروع سينجح حتى بدون متطلبات واضحة" },
+      { "id": "d", "text": "أن دور العملاء محدود ولا حاجة لمشاركتهم" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 76,
+    "question": "من هو الـ decision maker في مشروع المتطلبات؟",
+    "chapter": {
+      "id": "ch3",
+      "name": "Requirements from the Customer’s Perspective"
+    },
+    "options": [
+      { "id": "a", "text": "أي شخص يحضر الاجتماعات بدون دور محدد" },
+      { "id": "b", "text": "الشخص الذي يحلّ النزاعات أو يقبل/يرفض التغييرات أو يوافق على مجموعة المتطلبات لإصدار معيّن" },
+      { "id": "c", "text": "فريق الاختبار فقط" },
+      { "id": "d", "text": "المستخدم النهائي فقط" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 77,
+    "question": "ما المقصود بـ decision rule لمجموعة اتخاذ القرار في المتطلبات؟",
+    "chapter": {
+      "id": "ch3",
+      "name": "Requirements from the Customer’s Perspective"
+    },
+    "options": [
+      { "id": "a", "text": "قائمة المتطلبات ذات الأولوية العليا فقط" },
+      { "id": "b", "text": "وصف لكيفية التوصل إلى القرارات؛ مثل متى يتم التصويت، ومتى يُسعى إلى consensus، ومتى يتم التفويض" },
+      { "id": "c", "text": "خطة اختبار الأداء" },
+      { "id": "d", "text": "طريقة تصميم قاعدة البيانات" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 78,
+    "question": "أي عبارة صحيحة بشأن sign-off على المتطلبات؟",
+    "chapter": {
+      "id": "ch3",
+      "name": "Requirements from the Customer’s Perspective"
+    },
+    "options": [
+      { "id": "a", "text": "يجب استخدام sign-off كسلاح للضغط على الأطراف الأخرى" },
+      { "id": "b", "text": "sign-off يعني أنه لا يُسمح بأي تغيير في المتطلبات بعد ذلك" },
+      { "id": "c", "text": "يُعامَل sign-off كـ milestone مع فهم مشترك للأنشطة التي تقوده ولآثاره على التغييرات المستقبلية" },
+      { "id": "d", "text": "لا حاجة لأي توثيق قبل sign-off" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 79,
+    "question": "requirements baseline هي:",
+    "chapter": {
+      "id": "ch3",
+      "name": "Requirements from the Customer’s Perspective"
+    },
+    "options": [
+      { "id": "a", "text": "مجموعة من المتطلبات الأولية غير المعتمدة بعد" },
+      { "id": "b", "text": "مجموعة متطلبات تمت مراجعتها والاتفاق عليها وتُستخدم كأساس للتطوير اللاحق" },
+      { "id": "c", "text": "وثيقة خاصة بفريق الاختبار فقط" },
+      { "id": "d", "text": "مخطط معماري للنظام" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 80,
+    "question": "تمثّل Business requirements:",
+    "chapter": {
+      "id": "ch4",
+      "name": "Establishing the Business Requirements"
+    },
+    "options": [
+      { "id": "a", "text": "أدنى مستوى من المتطلبات التفصيلية" },
+      { "id": "b", "text": "قواعد البرمجة الخاصة بالمطوّرين فقط" },
+      { "id": "c", "text": "قمة سلسلة المتطلبات وتحدّد رؤية الحل ونطاق المشروع" },
+      { "id": "d", "text": "مجموعة حالات الاختبار (Test Cases)" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 81,
+    "question": "أي عبارة صحيحة عن علاقة المتطلبات بـ Business objectives؟",
+    "chapter": {
+      "id": "ch4",
+      "name": "Establishing the Business Requirements"
+    },
+    "options": [
+      { "id": "a", "text": "من المقبول تنفيذ متطلبات لا تخدم أي هدف من أهداف العمل" },
+      { "id": "b", "text": "المتطلبات التي لا تساعد في تحقيق Business objectives لا يجب تنفيذها" },
+      { "id": "c", "text": "Business objectives لا تؤثر على اختيار المتطلبات" },
+      { "id": "d", "text": "يمكن تحديد المتطلبات ثم صياغة Business objectives لاحقًا بشكل عشوائي" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 82,
+    "question": "من نتائج عدم وجود فهم مشترك لـ Business objectives بين الـstakeholders:",
+    "chapter": {
+      "id": "ch4",
+      "name": "Establishing the Business Requirements"
+    },
+    "options": [
+      { "id": "a", "text": "اتفاق سريع على المتطلبات" },
+      { "id": "b", "text": "التزام كامل بالميزانية والجدول الزمني" },
+      { "id": "c", "text": "احتمال كبير لتجاوز المواعيد والميزانيات وصعوبة تسليم المنتج الصحيح" },
+      { "id": "d", "text": "تقليل عدد التغييرات في المتطلبات" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 83,
+    "question": "مجموعة Business requirements تشمل عادةً المعلومات التالية:",
+    "chapter": {
+      "id": "ch4",
+      "name": "Establishing the Business Requirements"
+    },
+    "options": [
+      { "id": "a", "text": "Architecture – Database schema – UI mockups" },
+      { "id": "b", "text": "Business opportunities – Business objectives – Success metrics – Vision statement – Scope and limitations" },
+      { "id": "c", "text": "Source code – Test cases – Deployment scripts" },
+      { "id": "d", "text": "Team structure – Budget only" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 84,
+    "question": "الغرض من Success metrics هو أن:",
+    "chapter": {
+      "id": "ch4",
+      "name": "Establishing the Business Requirements"
+    },
+    "options": [
+      { "id": "a", "text": "تحديد تصميم قاعدة البيانات" },
+      { "id": "b", "text": "توفر مؤشرات لقياس نجاح المشروع وما إذا كان يسير نحو تحقيق Business objectives" },
+      { "id": "c", "text": "استبدال Business objectives بالكامل" },
+      { "id": "d", "text": "وصف واجهة المستخدم الرسومية فقط" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 85,
+    "question": "Product vision تُعرَّف بأنها:",
+    "chapter": {
+      "id": "ch4",
+      "name": "Establishing the Business Requirements"
+    },
+    "options": [
+      { "id": "a", "text": "وصف تقني تفصيلي للكود" },
+      { "id": "b", "text": "المنتج النهائي الفعلي بعد آخر إصدار" },
+      { "id": "c", "text": "وصف للمنتج النهائي الذي يحقّق Business objectives وما يمكن أن يصبح عليه على المدى البعيد" },
+      { "id": "d", "text": "خطة اختبار الأداء" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 86,
+    "question": "Project scope يحدد:",
+    "chapter": {
+      "id": "ch4",
+      "name": "Establishing the Business Requirements"
+    },
+    "options": [
+      { "id": "a", "text": "كل ما يمكن أن يقدّمه المنتج عبر عمره بالكامل" },
+      { "id": "b", "text": "الجزء من Product vision الذي سيتعامل معه المشروع أو الـiteration الحالية وحدود ما هو داخل وخارج هذا المشروع" },
+      { "id": "c", "text": "عدد المطورين في الفريق" },
+      { "id": "d", "text": "قواعد كتابة الكود" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 87,
+    "question": "أي عبارة أدقّ بخصوص الفرق بين Product vision و Project scope؟",
+    "chapter": {
+      "id": "ch4",
+      "name": "Establishing the Business Requirements"
+    },
+    "options": [
+      { "id": "a", "text": "الرؤية vision تتغيّر بسرعة، بينما النطاق scope ثابت دائمًا" },
+      { "id": "b", "text": "الرؤية تخص المشروع الواحد، بينما النطاق يخص المنتج ككل" },
+      { "id": "c", "text": "الرؤية تخص المنتج بالكامل وتتغيّر ببطء، بينما النطاق يخص مشروعًا أو إصدارًا معيّنًا ويتغيّر مع كل iteration" },
+      { "id": "d", "text": "لا يوجد أي فرق بينهما" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 88,
+    "question": "Vision and scope document هو مستند يقوم بـ:",
+    "chapter": {
+      "id": "ch4",
+      "name": "Establishing the Business Requirements"
+    },
+    "options": [
+      { "id": "a", "text": "جمع جميع المتطلبات التفصيلية (low-level) فقط" },
+      { "id": "b", "text": "جمع Business requirements في ملف واحد يشمل الرؤية والنطاق وغيرهما" },
+      { "id": "c", "text": "وصف تصميم الواجهة فقط" },
+      { "id": "d", "text": "تحديد خطة الاختبار بالتفصيل" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 89,
+    "question": "من المصادر النموذجية لإدخال (input) Business requirements إلى Vision and scope document:",
+    "chapter": {
+      "id": "ch4",
+      "name": "Establishing the Business Requirements"
+    },
+    "options": [
+      { "id": "a", "text": "المبرمجون الجدد فقط" },
+      { "id": "b", "text": "أفراد لديهم فهم واضح لسبب تنفيذ المشروع مثل الإدارة العليا، product visionary، product manager، SMEs، قسم التسويق" },
+      { "id": "c", "text": "المستخدمون غير المهتمين بالمشروع" },
+      { "id": "d", "text": "فريق الاختبار فقط" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 90,
+    "question": "في Template لـ Vision and Scope Document، قسم Business opportunity يصف عادةً:",
+    "chapter": {
+      "id": "ch4",
+      "name": "Establishing the Business Requirements"
+    },
+    "options": [
+      { "id": "a", "text": "خطة التنفيذ التقنية بالتفصيل" },
+      { "id": "b", "text": "شكل الواجهة الرسومية" },
+      { "id": "c", "text": "مشكلة العمل (business problem) أو العملية المراد تحسينها والبيئة التي سيُستخدم فيها النظام أو فرصة تجارية وسوق المنتج" },
+      { "id": "d", "text": "قواعد كتابة الـunit tests" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 91,
+    "question": "Business objectives تتميّز بأنها:",
+    "chapter": {
+      "id": "ch4",
+      "name": "Establishing the Business Requirements"
+    },
+    "options": [
+      { "id": "a", "text": "عامّة وغير قابلة للقياس" },
+      { "id": "b", "text": "مجموعة شعارات تسويقية فقط" },
+      { "id": "c", "text": "فوائد رئيسية يُفترض أن يحقّقها المنتج تُكتب بشكل كمي وقابل للقياس (measurable)" },
+      { "id": "d", "text": "تعريفات تقنية للـAPIs" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 92,
+    "question": "Business risks في Vision and scope document تُستخدم لـ:",
+    "chapter": {
+      "id": "ch4",
+      "name": "Establishing the Business Requirements"
+    },
+    "options": [
+      { "id": "a", "text": "تلخيص الأخطاء البرمجية في الكود" },
+      { "id": "b", "text": "تلخيص المخاطر الرئيسية المرتبطة بتطوير أو عدم تطوير المنتج مثل المنافسة في السوق، التوقيت، قبول المستخدمين، مشاكل التنفيذ، الآثار السلبية على العمل" },
+      { "id": "c", "text": "وصف تصميم قاعدة البيانات" },
+      { "id": "d", "text": "تحديد حجم الفريق فقط" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 93,
+    "question": "Business assumptions تُعرَّف بأنها:",
+    "chapter": {
+      "id": "ch4",
+      "name": "Establishing the Business Requirements"
+    },
+    "options": [
+      { "id": "a", "text": "حقائق مثبتة بأدلة رسمية" },
+      { "id": "b", "text": "قواعد تقنية خاصة بالمطورين" },
+      { "id": "c", "text": "تصريحات يُعتقد أنها صحيحة دون دليل قاطع، وقد تعيق تحقيق الأهداف إذا كانت خاطئة" },
+      { "id": "d", "text": "قائمة بالمتطلبات الوظيفية" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 94,
+    "question": "في قسم Scope and limitations، يجب توضيح:",
+    "chapter": {
+      "id": "ch4",
+      "name": "Establishing the Business Requirements"
+    },
+    "options": [
+      { "id": "a", "text": "ما سيكون عليه الحل وما لن يكون عليه (ما هو داخل وخارج الحل)" },
+      { "id": "b", "text": "جميع تفاصيل تصميم الـUI" },
+      { "id": "c", "text": "خطة الاختبار التفصيلية" },
+      { "id": "d", "text": "قائمة بأسماء المطورين" }
+    ],
+    "correctAnswer": "a"
+  },
+  {
+    "id": 95,
+    "question": "أي تقنية من تقنيات Scope representation تقوم برسم النظام كدائرة واحدة وتُظهر الترمينيتورز (external entities) والأسهم كـ data/control/material flows؟",
+    "chapter": {
+      "id": "ch4",
+      "name": "Establishing the Business Requirements"
+    },
+    "options": [
+      { "id": "a", "text": "Ecosystem map" },
+      { "id": "b", "text": "Feature tree" },
+      { "id": "c", "text": "Context diagram" },
+      { "id": "d", "text": "Event list" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 96,
+    "question": "Ecosystem map تُستخدم لـ:",
+    "chapter": {
+      "id": "ch4",
+      "name": "Establishing the Business Requirements"
+    },
+    "options": [
+      { "id": "a", "text": "إظهار فقط المستخدمين البشر للنظام" },
+      { "id": "b", "text": "تمثيل كل الأنظمة التي تتصل بالنظام وقد تحتاج إلى تعديل، بما فيها الأنظمة التي لا تملك واجهة مباشرة معه، وإظهار تدفّق البيانات بينها" },
+      { "id": "c", "text": "تفصيل الخوارزميات الداخلية" },
+      { "id": "d", "text": "رسم شجرة الفيتشرز (features)" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 97,
+    "question": "Feature tree يُفضَّل عرضه لـ:",
+    "chapter": {
+      "id": "ch4",
+      "name": "Establishing the Business Requirements"
+    },
+    "options": [
+      { "id": "a", "text": "المديرين التنفيذيين الذين يريدون نظرة سريعة على نطاق المشروع عن طريق عرض L1 وL2 وL3 features" },
+      { "id": "b", "text": "فريق قواعد البيانات فقط" },
+      { "id": "c", "text": "المستخدمين النهائيين فقط أثناء التدريب" },
+      { "id": "d", "text": "قسم الدعم الفني فقط" }
+    ],
+    "correctAnswer": "a"
+  },
+  {
+    "id": 98,
+    "question": "Event list في سياق تمثيل النطاق (scope) تقوم بـ:",
+    "chapter": {
+      "id": "ch4",
+      "name": "Establishing the Business Requirements"
+    },
+    "options": [
+      { "id": "a", "text": "وصف كل الـfunctional requirements بالتفصيل" },
+      { "id": "b", "text": "تسمية الأحداث الخارجية (business events, temporal events, signal events) التي قد تُطلق سلوكًا في النظام بدون وصف المتطلبات نفسها" },
+      { "id": "c", "text": "رسم العلاقات بين الجداول في قاعدة البيانات" },
+      { "id": "d", "text": "وصف تصميم الـUI" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 99,
+    "question": "أي عبارة صحيحة بخصوص استخدام Business objectives لتحديد متى يكتمل المشروع؟",
+    "chapter": {
+      "id": "ch4",
+      "name": "Establishing the Business Requirements"
+    },
+    "options": [
+      { "id": "a", "text": "المشروع يُعتبر مكتملًا بمجرد الانتهاء من أول إصدار، بغض النظر عن الأهداف" },
+      { "id": "b", "text": "لا يمكن استخدام Success metrics لقياس التقدّم نحو Business objectives" },
+      { "id": "c", "text": "يُعتبر المشروع مكتملًا عندما تشير Success metrics إلى احتمال كبير بتحقيق Business objectives وفقًا للرؤية والخطة المسبقة" },
+      { "id": "d", "text": "غياب Business objectives المعرّفة بوضوح يساعد على إنهاء المشروع بسرعة" }
+    ],
+    "correctAnswer": "c"
   }
 ]
+
