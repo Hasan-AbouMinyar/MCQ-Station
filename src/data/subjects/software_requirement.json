@@ -2251,5 +2251,425 @@
       { "id": "d", "text": "شكل واجهة المستخدم الرئيسية" }
     ],
     "correctAnswer": "b"
+  },
+  {
+    "id": 120,
+    "question": "Requirements elicitation هي:",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "مرحلة كتابة الكود للنظام" },
+      { "id": "b", "text": "عملية اختبار النظام بعد التنفيذ" },
+      { "id": "c", "text": "القلب لعملية تطوير المتطلبات، وهي عملية تحديد احتياجات وقيود الـstakeholders لنظام برمجي" },
+      { "id": "d", "text": "مجرد توثيق SRS النهائي" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 121,
+    "question": "أي عبارة تعبّر بدقّة عن طبيعة Requirements elicitation؟",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "نشاط فردي يقوم به الـBA دون تفاعل مع أحد" },
+      { "id": "b", "text": "نشاط إداري فقط يتعلق بالوقت والميزانية" },
+      { "id": "c", "text": "عملية تعاونية وتحليلية تشمل جمع واكتشاف واستخراج وتعريف المتطلبات" },
+      { "id": "d", "text": "مجرد ملء نماذج جاهزة للمتطلبات" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 122,
+    "question": "Requirements elicitation تُستخدم لاكتشاف:",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "فقط المتطلبات الوظيفية Functional requirements" },
+      { "id": "b", "text": "فقط متطلبات واجهة المستخدم" },
+      { "id": "c", "text": "Business, user, functional, nonfunctional requirements وأنواع أخرى من المعلومات عن النظام" },
+      { "id": "d", "text": "فقط Nonfunctional requirements" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 123,
+    "question": "تقنيات Requirements elicitation تنقسم بشكل عام إلى:",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "Agile و Waterfall" },
+      { "id": "b", "text": "Manual و Automatic" },
+      { "id": "c", "text": "Facilitated activities و Independent activities" },
+      { "id": "d", "text": "Online و Offline" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 124,
+    "question": "أي مما يلي ليس من العوامل المهمة عند اختيار تقنية elicitation مناسبة؟",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "نوع المتطلبات المراد استخراجها" },
+      { "id": "b", "text": "الوقت والميزانية وتوفر الـstakeholders" },
+      { "id": "c", "text": "خبرة مهندس المتطلبات مع تقنية معينة" },
+      { "id": "d", "text": "لون واجهة المستخدم النهائية" }
+    ],
+    "correctAnswer": "d"
+  },
+  {
+    "id": 125,
+    "question": "أي مجموعة تحتوي فقط على تقنيات elicitation مذكورة في الشابتر؟",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "Interviews, Workshops, Focus groups, Observations" },
+      { "id": "b", "text": "Interviews, Agile modeling, Pair programming, Brainstorming" },
+      { "id": "c", "text": "User Interface Analysis, Document Analysis, Brainstorming, Prototyping" },
+      { "id": "d", "text": "الإجابتان (a) و (c)" }
+    ],
+    "correctAnswer": "d"
+  },
+  {
+    "id": 126,
+    "question": "من مميزات Interviews مقارنةً بـrequirements workshops:",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "أصعب في الجدولة من الورش" },
+      { "id": "b", "text": "لا يمكن استخدامها في الأنظمة التجارية" },
+      { "id": "c", "text": "أسهل في الجدولة والقيادة، ويشعر المشاركون فيها بأمان أكبر خاصة في الموضوعات الحساسة" },
+      { "id": "d", "text": "لا تسمح بمناقشة الموضوعات الحساسة" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 127,
+    "question": "أي ممارسة تُعد من نصائح إجراء مقابلة فعّالة؟",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "تجنّب التحضير المسبق للأسئلة" },
+      { "id": "b", "text": "عدم السماح للمشارك بالكلام كثيرًا" },
+      { "id": "c", "text": "ممارسة active listening و paraphrasing للتأكد من فهم رسالة المتحدث" },
+      { "id": "d", "text": "تغيير موضوع المقابلة كل بضع دقائق" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 128,
+    "question": "Requirements workshop هو:",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "اجتماع عشوائي بدون هدف واضح" },
+      { "id": "b", "text": "استبيان إلكتروني يُرسل للمستخدمين" },
+      { "id": "c", "text": "اجتماع منظم لمجموعة مختارة من الـstakeholders والخبراء للعمل معًا على تعريف وإنشاء وتنقيح مخرجات تمثل user requirements" },
+      { "id": "d", "text": "مقابلة فردية بين BA ومستخدم واحد" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 129,
+    "question": "دور الـscribe في ورشة العمل هو:",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "اتخاذ القرارات النهائية في الورشة" },
+      { "id": "b", "text": "تيسير النقاش بين المشاركين" },
+      { "id": "c", "text": "تسجيل النقاط والأفكار التي تظهر أثناء النقاش لمساعدة الميسّر" },
+      { "id": "d", "text": "مراقبة الوقت فقط" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 130,
+    "question": "أي عبارة صحيحة عن Requirements workshops؟",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "قليلة التكلفة ولا تحتاج إلى تخطيط مسبق" },
+      { "id": "b", "text": "غير مناسبة لحل الخلافات بين الـstakeholders" },
+      { "id": "c", "text": "قد تكون مكلفة زمنياً وبشرياً لكنها فعّالة لحل الخلافات والحصول على متطلبات بسرعة عند وجود قيود في الجدول الزمني" },
+      { "id": "d", "text": "لا تحتاج إلى أي مواد أو مسودات جاهزة قبل الجلسة" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 131,
+    "question": "Focus group هو:",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "مقابلة فردية مع مستخدم واحد" },
+      { "id": "b", "text": "مجموعة من المطورين يناقشون التصميم" },
+      { "id": "c", "text": "مجموعة تمثيلية من المستخدمين في نشاط ميسّر لتوليد مدخلات وأفكار حول المتطلبات الوظيفية ومتطلبات الجودة" },
+      { "id": "d", "text": "استبيان ورقي يُرسل بالبريد" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 132,
+    "question": "Observation في سياق المتطلبات تعني:",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "كتابة كود تجريبي للنظام" },
+      { "id": "b", "text": "مراقبة وتسجيل سلوك المستخدمين أو الـstakeholders أو الأنظمة بشكل ممنهج لفهم احتياجاتهم ونقاط الألم" },
+      { "id": "c", "text": "قراءة وثائق قديمة عن النظام" },
+      { "id": "d", "text": "إجراء ورشة عمل جماعية" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 133,
+    "question": "أي عبارة صحيحة عن Observations؟",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "مناسبة لكل المهام ولكل المستخدمين دون استثناء" },
+      { "id": "b", "text": "لا تحتاج إلى وقت طويل لذلك تُستخدم دائمًا" },
+      { "id": "c", "text": "يفضّل ألا تتجاوز كل جلسة ملاحظة تقريبًا ساعتين مع اختيار المهام الحرجة وعدة user classes" },
+      { "id": "d", "text": "لا يمكن أن تكون صامتة، يجب أن تكون تفاعلية دائمًا" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 134,
+    "question": "Questionnaires تُعتبر مناسبة خصوصًا عندما نريد:",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "مناقشة عميقة مع عدد قليل جدًا من المستخدمين" },
+      { "id": "b", "text": "مسح (survey) أعداد كبيرة من المستخدمين بتكلفة منخفضة وعبر مواقع جغرافية مختلفة" },
+      { "id": "c", "text": "تصميم بنية قاعدة البيانات" },
+      { "id": "d", "text": "حل تعارضات حادة بين الـstakeholders" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 135,
+    "question": "أي نصيحة صحيحة لكتابة Questionnaire فعّال؟",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "صياغة الأسئلة بطريقة توحي بإجابة صحيحة واحدة" },
+      { "id": "b", "text": "عدم اختبار الاستبيان قبل توزيعه لتوفير الوقت" },
+      { "id": "c", "text": "تجنّب وضع جميع خيارات الإجابة الممكنة لتقليل الطول" },
+      { "id": "d", "text": "توفير خيارات تغطي مجموعة الإجابات الممكنة، وتجنّب الأسئلة المنحازة، واختبار الاستبيان قبل نشره" }
+    ],
+    "correctAnswer": "d"
+  },
+  {
+    "id": 136,
+    "question": "User Interface (UI) Analysis هي تقنية:",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "ميسّرة تعتمد فقط على مقابلة المستخدمين" },
+      { "id": "b", "text": "مستقلة تقوم على دراسة واجهات الأنظمة الحالية أو المشابهة لاكتشاف user و functional requirements" },
+      { "id": "c", "text": "لتحليل الأداء Performance فقط" },
+      { "id": "d", "text": "لا علاقة لها باكتشاف المتطلبات" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 137,
+    "question": "أي تحذير مهم عند استخدام User Interface Analysis؟",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "يجب نسخ واجهة النظام الحالي كما هي في النظام الجديد" },
+      { "id": "b", "text": "اعتبار أن كل وظيفة في النظام الحالي ضرورية للنظام الجديد" },
+      { "id": "c", "text": "عدم افتراض أن الوظائف أو شكل وتدفق الـUI في النظام الحالي يجب أن تُنقل كما هي للنظام الجديد" },
+      { "id": "d", "text": "تجنّب مراجعة الواجهة مع المستخدمين" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 138,
+    "question": "Document Analysis تتضمّن:",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "قراءة كود المصدر فقط لاستخراج المتطلبات" },
+      { "id": "b", "text": "فحص وثائق موجودة مثل requirements specifications و business processes و user manuals لاستخراج متطلبات محتملة" },
+      { "id": "c", "text": "مراقبة المستخدمين في الميدان" },
+      { "id": "d", "text": "بناء prototype سريع للنظام" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 139,
+    "question": "من مخاطر استخدام Document Analysis:",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "أن الوثائق تكون دائمًا دقيقة ومحدّثة" },
+      { "id": "b", "text": "أن الوثائق قد تكون غير محدّثة أو تتضمن وظائف ليست مطلوبة في النظام الجديد" },
+      { "id": "c", "text": "أنها لا تكشف أي معلومات لا يذكرها الناس" },
+      { "id": "d", "text": "أنها لا تصلح للتعرّف على مجال جديد" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 140,
+    "question": "Brainstorming في سياق المتطلبات يُستخدم أساسًا لـ:",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "تنفيذ الاختبارات الآلية للنظام" },
+      { "id": "b", "text": "توليد الأهداف العليا للنظام مثل الـmission والـvision عبر جلسات غير رسمية مع العملاء والـstakeholders" },
+      { "id": "c", "text": "كتابة SRS التفصيلية" },
+      { "id": "d", "text": "تصميم قاعدة البيانات المنطقية" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 141,
+    "question": "Prototyping هو عملية:",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "توثيق نصّي فقط للمتطلبات" },
+      { "id": "b", "text": "بناء نسخة مبسّطة من النظام المستهدف لاستكشاف الأفكار وجمع التغذية الراجعة وتوضيح المتطلبات" },
+      { "id": "c", "text": "تنفيذ الإصدار النهائي للنظام مباشرة" },
+      { "id": "d", "text": "إرسال استبيانات للمستخدمين" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 142,
+    "question": "Prototype سريع يُبنى بسرعة لاستكشاف فكرة أو توضيح متطلبات غامضة ثم يُتخلّى عنه بعد الاستخدام يُسمّى:",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "Evolutionary prototype" },
+      { "id": "b", "text": "Incremental prototype" },
+      { "id": "c", "text": "Throwaway (Rapid) prototype" },
+      { "id": "d", "text": "Working prototype" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 143,
+    "question": "الجامعة تريد ترقية نظام المكتبة، وهناك manuals و user guides موجودة للنظام الحالي. ما أنسب تقنية elicitation مذكورة في الشابتر للبدء؟",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "Interviews" },
+      { "id": "b", "text": "Document Analysis" },
+      { "id": "c", "text": "Brainstorming" },
+      { "id": "d", "text": "Focus Groups" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 144,
+    "question": "شركة ناشئة تبني Fitness App للمراهقين وتريد فهم المزايا التي ستجذبهم. ما التقنية الأنسب؟",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "Focus Groups" },
+      { "id": "b", "text": "Observations" },
+      { "id": "c", "text": "Document Analysis" },
+      { "id": "d", "text": "Workshops" }
+    ],
+    "correctAnswer": "a"
+  },
+  {
+    "id": 145,
+    "question": "سلسلة مقاهي تريد Point-of-Sale System بسيط وسريع، وسيستخدمه baristas والمديرون يوميًا. ما التقنية الأنسب لاكتشاف المتطلبات وتجربة الأفكار؟",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "Brainstorming" },
+      { "id": "b", "text": "Questionnaire" },
+      { "id": "c", "text": "Interviews" },
+      { "id": "d", "text": "Prototyping" }
+    ],
+    "correctAnswer": "d"
+  },
+  {
+    "id": 146,
+    "question": "بنك يطلق Mobile Banking App لمجتمعات ريفية ذات إلمام رقمي محدود. ما التقنية الأنسب لفهم احتياجاتهم وسلوكهم؟",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "Observations" },
+      { "id": "b", "text": "Workshops" },
+      { "id": "c", "text": "Questionnaire" },
+      { "id": "d", "text": "User Interface Analysis" }
+    ],
+    "correctAnswer": "a"
+  },
+  {
+    "id": 147,
+    "question": "جامعة تريد منصة للطلبة للوصول إلى خدمات الصحة النفسية، مع كون الخصوصية عاملًا أساسيًا. ما التقنية الأنسب لجمع آراء الطلبة؟",
+    "chapter": {
+      "id": "ch6",
+      "name": "Requirements Elicitation (1)"
+    },
+    "options": [
+      { "id": "a", "text": "Questionnaire" },
+      { "id": "b", "text": "Interviews جماعية" },
+      { "id": "c", "text": "Focus Groups كبيرة" },
+      { "id": "d", "text": "Document Analysis فقط" }
+    ],
+    "correctAnswer": "a"
   }
 ]
