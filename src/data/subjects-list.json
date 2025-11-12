@@ -1,8 +1,8 @@
 [
   {
     "id": "software_requirement",
-    "name": "USER INTERFACE DESIGN",
-    "description": "مادة تصميم واجهات",
+    "name": "مادة تحليل متطلبات البرمجيات",
+    "description": "قسم هندسة البرمجيات",
     "icon": "mdi-laptop",
     "color": "#8E8E93"
   },
