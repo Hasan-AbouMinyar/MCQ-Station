@@ -1051,5 +1051,305 @@
       }
     ],
     "correctAnswer": "b"
+  },
+  {
+    "id": 40,
+    "question": "تشير الدراسات إلى أن الأخطاء التي تُدخل أثناء أنشطة المتطلبات تشكّل تقريبًا:",
+    "chapter": {
+      "id": "ch2",
+      "name": "The Essential Software Requirement"
+    },
+    "options": [
+      { "id": "a", "text": "10–20%" },
+      { "id": "b", "text": "20–30%" },
+      { "id": "c", "text": "40–50%" },
+      { "id": "d", "text": "70–80%" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 41,
+    "question": "أيٌّ مما يلي يُعد مثالًا على مشكلة شائعة في أنشطة المتطلبات:",
+    "chapter": {
+      "id": "ch2",
+      "name": "The Essential Software Requirement"
+    },
+    "options": [
+      { "id": "a", "text": "استخدام عملية تغيير رسمية وصارمة" },
+      { "id": "b", "text": "جمع المعلومات بطريقة informal information gathering" },
+      { "id": "c", "text": "توثيق كل المتطلبات بدقة من أول مرة" },
+      { "id": "d", "text": "وجود اتفاق واضح على جميع الافتراضات" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 42,
+    "question": "أي علامة من التالي تُشير إلى نبض ضعيف في عملية المتطلبات في مشروعك (Taking your requirements pulse)؟",
+    "chapter": {
+      "id": "ch2",
+      "name": "The Essential Software Requirement"
+    },
+    "options": [
+      { "id": "a", "text": "تم تحديد business objectives والرؤية بوضوح منذ البداية" },
+      { "id": "b", "text": "العملاء أعطوا وقتًا كافيًا لتحليل المتطلبات" },
+      { "id": "c", "text": "المطورون واجهوا غموضًا ونقص معلومات واضطروا للتخمين أثناء البرمجة" },
+      { "id": "d", "text": "تمت مراجعة المتطلبات واعتمادها مرة واحدة بدون أي تغيير بعدها" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 43,
+    "question": "Software requirements هي مواصفات لـ:",
+    "chapter": {
+      "id": "ch2",
+      "name": "The Essential Software Requirement"
+    },
+    "options": [
+      { "id": "a", "text": "كيف يُبنى النظام من الداخل فقط" },
+      { "id": "b", "text": "ما يجب أن يُنفَّذ؛ أي وصف لسلوك النظام أو خاصية أو قيد على عملية التطوير" },
+      { "id": "c", "text": "خطة التسويق الخاصة بالمنتج البرمجي" },
+      { "id": "d", "text": "طريقة كتابة الكود في لغة محددة" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 44,
+    "question": "Business requirement هو:",
+    "chapter": {
+      "id": "ch2",
+      "name": "The Essential Software Requirement"
+    },
+    "options": [
+      { "id": "a", "text": "قيد تقني على أداء النظام" },
+      { "id": "b", "text": "خوارزمية حسابية داخل النظام" },
+      { "id": "c", "text": "هدف عالي المستوى للمنظمة أو العميل من بناء المنتج (الفائدة المرجوّة)" },
+      { "id": "d", "text": "تفصيل دقيق لسلوك زر في واجهة المستخدم" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 45,
+    "question": "Business rule هي:",
+    "chapter": {
+      "id": "ch2",
+      "name": "The Essential Software Requirement"
+    },
+    "options": [
+      { "id": "a", "text": "Software requirement جاهز للتنفيذ" },
+      { "id": "b", "text": "سياسة أو guideline أو standard أو regulation تُقيد جانبًا من العمل، وتكون مصدرًا لبعض المتطلبات البرمجية" },
+      { "id": "c", "text": "وصف لسلوك واجهة مستخدم رسومية" },
+      { "id": "d", "text": "وصف لهيكل قاعدة البيانات" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 46,
+    "question": "Constraint في سياق المتطلبات هو:",
+    "chapter": {
+      "id": "ch2",
+      "name": "The Essential Software Requirement"
+    },
+    "options": [
+      { "id": "a", "text": "اقتراح اختياري يمكن تجاهله" },
+      { "id": "b", "text": "قيد يُفرض على خيارات المصممين في تصميم وبناء المنتج" },
+      { "id": "c", "text": "ميزة إضافية يفضَّل وجودها فقط" },
+      { "id": "d", "text": "خطأ في التصميم يجب حذفه" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 47,
+    "question": "External interface requirement يصف:",
+    "chapter": {
+      "id": "ch2",
+      "name": "The Essential Software Requirement"
+    },
+    "options": [
+      { "id": "a", "text": "تفاصيل خوارزمية داخلية فقط" },
+      { "id": "b", "text": "اتصال بين النظام البرمجي ومستخدم أو نظام برمجي آخر أو جهاز hardware" },
+      { "id": "c", "text": "خطة الصيانة السنوية" },
+      { "id": "d", "text": "قواعد إدارة فريق التطوير" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 48,
+    "question": "Feature في النظام تُعرَّف بأنها:",
+    "chapter": {
+      "id": "ch2",
+      "name": "The Essential Software Requirement"
+    },
+    "options": [
+      { "id": "a", "text": "Requirement واحد بسيط" },
+      { "id": "b", "text": "قدرة أو أكثر من قدرات النظام المترابطة منطقيًا وتوفّر قيمة للمستخدم وتُوصف بمجموعة من functional requirements" },
+      { "id": "c", "text": "عنصر في واجهة المستخدم فقط" },
+      { "id": "d", "text": "نوع من أنواع business rule" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 49,
+    "question": "Nonfunctional requirement يصف عادةً:",
+    "chapter": {
+      "id": "ch2",
+      "name": "The Essential Software Requirement"
+    },
+    "options": [
+      { "id": "a", "text": "سلوك محدد للنظام تحت شرط معين" },
+      { "id": "b", "text": "خاصية أو characteristic يجب أن يمتلكها النظام أو قيد يجب احترامه مثل الأداء أو الأمان" },
+      { "id": "c", "text": "هيكل قاعدة البيانات المنطقي" },
+      { "id": "d", "text": "خطوات استخدام النظام بالتفصيل" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 50,
+    "question": "Quality attributes مثل performance وavailability تُسمى أحيانًا:",
+    "chapter": {
+      "id": "ch2",
+      "name": "The Essential Software Requirement"
+    },
+    "options": [
+      { "id": "a", "text": "Business rules" },
+      { "id": "b", "text": "Features" },
+      { "id": "c", "text": "الـ“-ilities” مثل reliability وportability وغيرها" },
+      { "id": "d", "text": "System interfaces" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 51,
+    "question": "Software requirements تشمل ثلاث مستويات رئيسية بالإضافة إلى NFRs وهي:",
+    "chapter": {
+      "id": "ch2",
+      "name": "The Essential Software Requirement"
+    },
+    "options": [
+      { "id": "a", "text": "Business – Database – UI" },
+      { "id": "b", "text": "User – Hardware – Network" },
+      { "id": "c", "text": "Business requirements – User requirements – Functional requirements" },
+      { "id": "d", "text": "Analysis – Design – Coding" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 52,
+    "question": "Business requirements يمكن توثيقها عادةً في مستند يسمى:",
+    "chapter": {
+      "id": "ch2",
+      "name": "The Essential Software Requirement"
+    },
+    "options": [
+      { "id": "a", "text": "Architecture document" },
+      { "id": "b", "text": "Vision and Scope document" },
+      { "id": "c", "text": "Test plan" },
+      { "id": "d", "text": "User manual" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 53,
+    "question": "من طرق تمثيل User requirements:",
+    "chapter": {
+      "id": "ch2",
+      "name": "The Essential Software Requirement"
+    },
+    "options": [
+      { "id": "a", "text": "Class diagrams فقط" },
+      { "id": "b", "text": "Use cases وUser stories وEvent–response tables" },
+      { "id": "c", "text": "Source code comments" },
+      { "id": "d", "text": "Database schema" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 54,
+    "question": "الجملة: As a passenger, I want to check in for a flight so I can board my airplane. تُعتبر مثالًا على:",
+    "chapter": {
+      "id": "ch2",
+      "name": "The Essential Software Requirement"
+    },
+    "options": [
+      { "id": "a", "text": "Business requirement" },
+      { "id": "b", "text": "User story تعبّر عن User requirement" },
+      { "id": "c", "text": "Functional requirement داخلي" },
+      { "id": "d", "text": "Business rule" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 55,
+    "question": "Functional requirements في هذا الشابتر تُعرَّف بأنها:",
+    "chapter": {
+      "id": "ch2",
+      "name": "The Essential Software Requirement"
+    },
+    "options": [
+      { "id": "a", "text": "أهداف العمل العامة بدون تفاصيل" },
+      { "id": "b", "text": "سلوكيات سيعرضها المنتج تحت conditions محددة لتمكين المستخدمين من إنجاز مهامهم وتحقيق business requirements" },
+      { "id": "c", "text": "قيود على عملية التطوير فقط" },
+      { "id": "d", "text": "خصائص الجودة مثل الأداء" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 56,
+    "question": "Software Requirements Specification (SRS) هي وثيقة:",
+    "chapter": {
+      "id": "ch2",
+      "name": "The Essential Software Requirement"
+    },
+    "options": [
+      { "id": "a", "text": "تصف فقط واجهة المستخدم الرسومية" },
+      { "id": "b", "text": "تصف السلوك المتوقع للـsoftware system بالقدر الكافي، وتُستخدم في التطوير والاختبار وQA وإدارة المشروع" },
+      { "id": "c", "text": "خاصة بقسم التسويق فقط" },
+      { "id": "d", "text": "تحتوي على كود تنفيذي للنظام" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 57,
+    "question": "System requirement كما عُرِّفت في هذا الشابتر هي متطلب لـ:",
+    "chapter": {
+      "id": "ch2",
+      "name": "The Essential Software Requirement"
+    },
+    "options": [
+      { "id": "a", "text": "برنامج صغير من مكوّن واحد فقط" },
+      { "id": "b", "text": "منتج مكوَّن من عدّة مكوّنات أو subsystems قد تكون software فقط أو software وhardware وأيضًا أشخاص وعمليات" },
+      { "id": "c", "text": "واجهة المستخدم فقط" },
+      { "id": "d", "text": "قاعدة البيانات فقط" }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 58,
+    "question": "Business rules ليست Software requirements بحد ذاتها لأنّها:",
+    "chapter": {
+      "id": "ch2",
+      "name": "The Essential Software Requirement"
+    },
+    "options": [
+      { "id": "a", "text": "تتعلّق فقط بالـUI" },
+      { "id": "b", "text": "لا تؤثّر أبدًا على المتطلبات الوظيفية" },
+      { "id": "c", "text": "لها وجود خارج حدود أي تطبيق برمجي معيّن، لكن يمكن تتبّع أصل بعض functional requirements إليها" },
+      { "id": "d", "text": "تُستخدم فقط في مرحلة الاختبار" }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 59,
+    "question": "Requirements development – بغضّ النظر عن الـlife cycle – يشمل أربع أنشطة رئيسية هي:",
+    "chapter": {
+      "id": "ch2",
+      "name": "The Essential Software Requirement"
+    },
+    "options": [
+      { "id": "a", "text": "Design – Coding – Testing – Deployment" },
+      { "id": "b", "text": "Elicitation – Analysis – Specification – Validation" },
+      { "id": "c", "text": "Planning – Estimation – Staffing – Training" },
+      { "id": "d", "text": "Modeling – Refactoring – Debugging – Maintenance" }
+    ],
+    "correctAnswer": "b"
   }
 ]
