@@ -1,0 +1,1055 @@
+[
+  {
+    "id": 1,
+    "question": "Requirements Engineering هي:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "عملية كتابة كود النظام فقط"
+      },
+      {
+        "id": "b",
+        "text": "عملية اختبار النظام بعد الانتهاء من تنفيذه"
+      },
+      {
+        "id": "c",
+        "text": "فرع من Software Engineering يهتم بالأهداف الواقعية، والوظائف، والقيود على أنظمة البرمجيات وعلاقتها بالمواصفات الدقيقة وسير تطورها"
+      },
+      {
+        "id": "d",
+        "text": "عملية تصميم واجهة المستخدم فقط"
+      }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 2,
+    "question": "من منظور العملية، Requirements Engineering هي:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "عملية تنفيذ الخوارزميات داخل النظام"
+      },
+      {
+        "id": "b",
+        "text": "عملية تحديد الخدمات (services) التي يحتاجها العميل من النظام والقيود التي يعمل تحتها ويطوَّر بها"
+      },
+      {
+        "id": "c",
+        "text": "عملية إدارة فريق التطوير فقط"
+      },
+      {
+        "id": "d",
+        "text": "عملية إعداد تقارير مالية عن المشروع"
+      }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 3,
+    "question": "أيٌّ مما يلي يُعَد من مشاكل عدم القيام بـ adequate requirements analysis؟",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Top-down design يصبح مستحيلًا"
+      },
+      {
+        "id": "b",
+        "text": "سهولة إدارة المشروع"
+      },
+      {
+        "id": "c",
+        "text": "تقليل عدد التغييرات في المتطلبات تلقائيًا"
+      },
+      {
+        "id": "d",
+        "text": "تحسين واجهات الاستخدام دون جهد"
+      }
+    ],
+    "correctAnswer": "a"
+  },
+  {
+    "id": 4,
+    "question": "من مشاكل الفشل في Requirements Analysis أيضًا:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "زيادة سرعة الاختبار"
+      },
+      {
+        "id": "b",
+        "text": "Testing يصبح مستحيلًا"
+      },
+      {
+        "id": "c",
+        "text": "انخفاض تكلفة المشروع تلقائيًا"
+      },
+      {
+        "id": "d",
+        "text": "عدم الحاجة إلى توثيق المتطلبات"
+      }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 5,
+    "question": "أي من التالي ليس من المشاكل الأربع المذكورة عند إهمال Requirements Analysis؟",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Top-down design is impossible"
+      },
+      {
+        "id": "b",
+        "text": "The user is frozen out"
+      },
+      {
+        "id": "c",
+        "text": "Management is not in control"
+      },
+      {
+        "id": "d",
+        "text": "سهولة إثبات تحقيق الأهداف بدون توثيق"
+      }
+    ],
+    "correctAnswer": "d"
+  },
+  {
+    "id": 6,
+    "question": "What are Requirements?",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "أوامر شفوية فقط من المدير الفني"
+      },
+      {
+        "id": "b",
+        "text": "تتراوح بين عبارات عالية المستوى (high-level abstract statements) إلى مواصفات رسمية (formal, mathematically rigorous specifications)"
+      },
+      {
+        "id": "c",
+        "text": "كود البرنامج النهائي فقط"
+      },
+      {
+        "id": "d",
+        "text": "حالات الاختبار (test cases) فقط"
+      }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 7,
+    "question": "تنوّع أشكال وصيغ Requirements يرجع أساسًا إلى:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "اختلاف لغات البرمجة المستخدمة"
+      },
+      {
+        "id": "b",
+        "text": "اختلاف احتياجات وقدرات الـStakeholders في مستويات الـabstraction وطريقة قراءة وكتابة التمثيلات المختلفة"
+      },
+      {
+        "id": "c",
+        "text": "نوع نظام التشغيل"
+      },
+      {
+        "id": "d",
+        "text": "حجم قاعدة البيانات فقط"
+      }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 8,
+    "question": "العلاقة الصحيحة بين Goals و Requirements هي:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "الـGoal هو هدف عالي المستوى، بينما الـRequirement يحدد كيف يحقّق النظام هذا الهدف"
+      },
+      {
+        "id": "b",
+        "text": "الـRequirement دائمًا أعمّ وأعلى مستوى من الـGoal"
+      },
+      {
+        "id": "c",
+        "text": "لا فرق بينهما ويمكن استخدام المصطلحين لنفس المعنى"
+      },
+      {
+        "id": "d",
+        "text": "الـGoal يكتب في SRS بينما الـRequirement لا يُوثَّق"
+      }
+    ],
+    "correctAnswer": "a"
+  },
+  {
+    "id": 9,
+    "question": "اعتبار الـGoal وكأنه Requirement مباشرة يؤدي إلى مشكلة؛ لأن:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "تحقيق الـGoal دائمًا سهل القياس"
+      },
+      {
+        "id": "b",
+        "text": "من الصعب إثبات تحقق الهدف، كما أن الأهداف تتطوّر وتتغيّر مع الزمن"
+      },
+      {
+        "id": "c",
+        "text": "الأهداف لا تتغير أبدًا"
+      },
+      {
+        "id": "d",
+        "text": "لا يمكن تحويل Goal إلى Requirements سلوكية"
+      }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 10,
+    "question": "Requirements Level Classification يقسم المتطلبات إلى ثلاث مستويات هي:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Business requirements – Hardware requirements – UI requirements"
+      },
+      {
+        "id": "b",
+        "text": "Product requirements – Process requirements – People requirements"
+      },
+      {
+        "id": "c",
+        "text": "User Requirements – System Requirements – Software Design Specifications"
+      },
+      {
+        "id": "d",
+        "text": "Functional – Nonfunctional – Domain"
+      }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 11,
+    "question": "أيٌّ من التالي يصف User Requirements بشكل صحيح؟",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "تُكتب فقط من قِبل المبرمجين"
+      },
+      {
+        "id": "b",
+        "text": "تأتي من الأشخاص الذين سيستخدمون المنتج فعليًا، وتكون عبارات عامة في natural language مع رسومات غير رسمية"
+      },
+      {
+        "id": "c",
+        "text": "مواصفات تفصيلية موجهة للمطورين مباشرة"
+      },
+      {
+        "id": "d",
+        "text": "لا تحتوي أي قيود على النظام"
+      }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 12,
+    "question": "System Requirements تتميّز بأنها:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "غير قابلة للاستخدام في العقود"
+      },
+      {
+        "id": "b",
+        "text": "دائمًا غير رسمية وبلا هيكل"
+      },
+      {
+        "id": "c",
+        "text": "أوصاف تفصيلية للـservices والـconstraints، وتُستخدم كـ\"عقد\" بين العميل والمقاول، وغالبًا تُسمى functional specification أو technical annex"
+      },
+      {
+        "id": "d",
+        "text": "تُكتب فقط بواسطة المستخدم النهائي"
+      }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 13,
+    "question": "Software Design Specifications و SRS:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "لا علاقة لهما بعملية التنفيذ"
+      },
+      {
+        "id": "b",
+        "text": "تنشأ من وثائق التحليل والتصميم، وSRS هو المستند \"العقدي\" الذي يُشار إليه كمواصفات النظام/البرمجيات"
+      },
+      {
+        "id": "c",
+        "text": "تُستخدم فقط في مرحلة الصيانة"
+      },
+      {
+        "id": "d",
+        "text": "لا تُستخدم إلا من قبل قسم الاختبار"
+      }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 14,
+    "question": "من مستخدمي Software Design Specifications (SRS):",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "System customers فقط"
+      },
+      {
+        "id": "b",
+        "text": "Project managers فقط"
+      },
+      {
+        "id": "c",
+        "text": "System test engineers فقط"
+      },
+      {
+        "id": "d",
+        "text": "System customers, Project managers, System engineers, System test engineers, System maintenance engineers"
+      }
+    ],
+    "correctAnswer": "d"
+  },
+  {
+    "id": 15,
+    "question": "في مثال Airline Baggage Handling System، الجملة: \"The system shall be able to process 20 bags per minute.\" تُعتبر:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "User Requirement"
+      },
+      {
+        "id": "b",
+        "text": "System Requirement"
+      },
+      {
+        "id": "c",
+        "text": "Domain Requirement"
+      },
+      {
+        "id": "d",
+        "text": "Nonfunctional Goal"
+      }
+    ],
+    "correctAnswer": "a"
+  },
+  {
+    "id": 16,
+    "question": "في نفس المثال، الجملة: \"Each bag processed shall trigger a baggage event.\" تُعتبر:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "User Requirement"
+      },
+      {
+        "id": "b",
+        "text": "System Requirement"
+      },
+      {
+        "id": "c",
+        "text": "Software Design Specification"
+      },
+      {
+        "id": "d",
+        "text": "Test Case"
+      }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 17,
+    "question": "أيٌّ مما يلي يُعتبر Functional Requirement (FR)؟",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "يجب أن يكون النظام سهل الاستخدام"
+      },
+      {
+        "id": "b",
+        "text": "يجب أن يعمل النظام على عدة منصات"
+      },
+      {
+        "id": "c",
+        "text": "\"When the system is in idle mode, the conveyor belt shall not move.\""
+      },
+      {
+        "id": "d",
+        "text": "متوسط الزمن بين الأعطال يجب أن يكون 1000 ساعة"
+      }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 18,
+    "question": "Functional Requirements:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "لا تهتم برد فعل النظام على المدخلات"
+      },
+      {
+        "id": "b",
+        "text": "تصف الـservices التي يجب أن يوفرها النظام وكيفية استجابته للمدخلات، وأحيانًا تُحدِّد سلوكيات يجب على النظام ألا يقوم بها"
+      },
+      {
+        "id": "c",
+        "text": "تُعبِّر فقط عن قيود الأداء"
+      },
+      {
+        "id": "d",
+        "text": "لا تُستخدم في التعاقد"
+      }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 19,
+    "question": "Nonfunctional Requirements (NFRs) هي متطلبات:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "تتعلق فقط بالمظهر الجمالي لواجهة المستخدم"
+      },
+      {
+        "id": "b",
+        "text": "تُفرض بواسطة البيئة (environment) التي سيعمل فيها النظام، مثل قيود الزمن، الجودة، لغات البرمجة، وغيرها"
+      },
+      {
+        "id": "c",
+        "text": "لا تحتاج إلى تتبّع أو إدارة"
+      },
+      {
+        "id": "d",
+        "text": "لا يمكن قياسها أبدًا"
+      }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 20,
+    "question": "أي من التالي مثال على Product NFR؟",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "تاريخ تسليم النظام النهائي"
+      },
+      {
+        "id": "b",
+        "text": "Performance (مثل عدد bags per minute) أو Space (مثل الذاكرة والطاقة)"
+      },
+      {
+        "id": "c",
+        "text": "التدريب على النظام"
+      },
+      {
+        "id": "d",
+        "text": "التشريعات الخاصة بالسلامة"
+      }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 21,
+    "question": "Organizational Requirements تشمل عادةً:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "سرعة تنفيذ الخوارزميات"
+      },
+      {
+        "id": "b",
+        "text": "جودة واجهة المستخدم"
+      },
+      {
+        "id": "c",
+        "text": "متطلبات التسليم (Delivery)، التنفيذ (Implementation)، والالتزام بالـStandards الخاصة بالمؤسسة"
+      },
+      {
+        "id": "d",
+        "text": "حجم الذاكرة المطلوب"
+      }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 22,
+    "question": "أيٌّ مما يلي يُعتبر External Requirement؟",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "عدد المستخدمين المتزامنين"
+      },
+      {
+        "id": "b",
+        "text": "حجم قاعدة البيانات"
+      },
+      {
+        "id": "c",
+        "text": "Interoperability مع الأنظمة الأخرى، المتطلبات Ethical، والمتطلبات Legislative مثل Privacy و Safety"
+      },
+      {
+        "id": "d",
+        "text": "طريقة كتابة كود الواجهة الأمامية"
+      }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 23,
+    "question": "Domain Requirements تُعرَّف بأنها:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "متطلبات يكتبها قسم الموارد البشرية"
+      },
+      {
+        "id": "b",
+        "text": "متطلبات مشتقة من مجال التطبيق (application domain)، وقد تضيف Functional Requirements جديدة أو تفرض قيودًا على المتطلبات القائمة"
+      },
+      {
+        "id": "c",
+        "text": "متطلبات خاصة فقط بالأداء"
+      },
+      {
+        "id": "d",
+        "text": "متطلبات لا تؤثر على طريقة تنفيذ الحسابات"
+      }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 24,
+    "question": "أيٌّ مما يلي يُعد مثالًا على Domain Requirement في نظام الحقائب؟",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "شكل واجهة شاشة الموظف"
+      },
+      {
+        "id": "b",
+        "text": "وجود industry standards لأنظمة أخرى، وقيود بسبب hardware موجود، واتفاقيات نقابية تفرض حدًا للأداء"
+      },
+      {
+        "id": "c",
+        "text": "لون الحزام الناقل للحقائب"
+      },
+      {
+        "id": "d",
+        "text": "طريقة تصميم قاعدة البيانات داخليًا فقط"
+      }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 25,
+    "question": "الأنشطة الأساسية في Requirements Engineering Activities هي:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Planning – Coding – Testing – Deployment"
+      },
+      {
+        "id": "b",
+        "text": "Requirements Elicitation – Requirements Analysis – Requirements Representation/Modeling – Requirements Verification & Validation – Requirements Management"
+      },
+      {
+        "id": "c",
+        "text": "Design – Implementation – Maintenance"
+      },
+      {
+        "id": "d",
+        "text": "UI Design – UX Design – Refactoring"
+      }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 26,
+    "question": "Requirements Elicitation تهدف إلى:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "كتابة الكود مباشرة"
+      },
+      {
+        "id": "b",
+        "text": "اكتشاف ما يحتاجه العميل وما يريده، وتحديد الـStakeholders، واستخراج أيضًا الـNonfunctional Requirements التي غالبًا تُهمَل"
+      },
+      {
+        "id": "c",
+        "text": "تصميم بنية النظام فقط"
+      },
+      {
+        "id": "d",
+        "text": "تنفيذ الاختبارات الوظيفية"
+      }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 27,
+    "question": "Requirements Analysis تتعامل مع:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "تحويل المتطلبات مباشرة إلى كود"
+      },
+      {
+        "id": "b",
+        "text": "حل مشاكل المتطلبات \"الخام\" مثل عدم المنطقية، التناقض، عدم الاتساق، عدم الاكتمال، الغموض، والتداخل والاعتمادية بينها"
+      },
+      {
+        "id": "c",
+        "text": "إعداد خطة التسويق"
+      },
+      {
+        "id": "d",
+        "text": "اختيار لغة البرمجة"
+      }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 28,
+    "question": "Requirements Representation and Modeling تهدف إلى:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "إلغاء الحاجة إلى التوثيق النصي"
+      },
+      {
+        "id": "b",
+        "text": "تحويل المتطلبات المعالجة إلى نماذج (باستخدام natural language أو الرياضيات أو الرسومات) لتسهيل التواصل وتحويلها إلى architecture و design"
+      },
+      {
+        "id": "c",
+        "text": "تنفيذ النظام مباشرة"
+      },
+      {
+        "id": "d",
+        "text": "تقليل عدد الـStakeholders"
+      }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 29,
+    "question": "Requirements Validation تُجيب عن السؤال:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "How do I build the product fast?"
+      },
+      {
+        "id": "b",
+        "text": "How do I design the architecture?"
+      },
+      {
+        "id": "c",
+        "text": "\"Am I building the right product?\""
+      },
+      {
+        "id": "d",
+        "text": "\"Is the UI attractive enough?\""
+      }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 30,
+    "question": "Requirements Management تهتم بـ:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "مراقبة أداء الخادم"
+      },
+      {
+        "id": "b",
+        "text": "إدارة واقع تغيُّر المتطلبات عبر الزمن، والتواصل بهذه التغييرات مع الأطراف المعنية"
+      },
+      {
+        "id": "c",
+        "text": "إنتاج حالات الاختبار"
+      },
+      {
+        "id": "d",
+        "text": "كتابة الكود وفق المتطلبات"
+      }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 31,
+    "question": "من مهارات Requirements Engineer الجيّد:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "أن يكون منعزلًا ولا يستمع للآخرين"
+      },
+      {
+        "id": "b",
+        "text": "أن يغيّر المتطلبات بدون الرجوع للعميل"
+      },
+      {
+        "id": "c",
+        "text": "أن يكون منظمًا، لديه خبرة في دورة حياة هندسة البرمجيات، ناضجًا في اختيار متى يكون عامًا ومتى يكون محددًا، قادرًا على الوقوف أمام العميل عند اللزوم، مديرًا جيدًا، مستمعًا جيدًا، عادلًا، مفاوضًا جيدًا، ومتعدد التخصصات ويفهم مجال المشكلة"
+      },
+      {
+        "id": "d",
+        "text": "التركيز فقط على كتابة الكود"
+      }
+    ],
+    "correctAnswer": "c"
+  },
+  {
+    "id": 32,
+    "question": "الوصف: \"يركّز على المعلومات التي جُمعت ولا يحاول تفسيرها\" يعبّر عن أي سمة من سمات Requirements Engineer؟",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Be thinking"
+      },
+      {
+        "id": "b",
+        "text": "Be sensing"
+      },
+      {
+        "id": "c",
+        "text": "Be judging"
+      },
+      {
+        "id": "d",
+        "text": "Be coding"
+      }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 33,
+    "question": "في نموذج Requirements Engineer as Software Systems Engineer:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "يكون دائمًا خبيرًا في المجال فقط دون معرفة تقنية"
+      },
+      {
+        "id": "b",
+        "text": "غالبًا يكون مهندس أنظمة برمجية سابق؛ إيجابيته أنه يستطيع التأثير على النماذج اللاحقة (مثل التصميم)، وخطورته أنه قد يبدأ في عمل design بينما المطلوب منه تطوير specifications للمتطلبات"
+      },
+      {
+        "id": "c",
+        "text": "لا يتعامل مع المتطلبات مطلقًا"
+      },
+      {
+        "id": "d",
+        "text": "دوره يقتصر على الاختبارات"
+      }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 34,
+    "question": "Requirements Engineer as Subject Matter Expert (SME) يعني:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "شخص لا علاقة له بالمجال"
+      },
+      {
+        "id": "b",
+        "text": "يتوقّع منه العميل أن يكون خبيرًا في مجال المشكلة أو في رغبات واحتياجات العملاء، وعند عدم كونه SME يجب التعاون مع SME آخر"
+      },
+      {
+        "id": "c",
+        "text": "لا يحتاج إلى فهم مجال المشكلة"
+      },
+      {
+        "id": "d",
+        "text": "لا يتعامل مع العملاء"
+      }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 35,
+    "question": "في نموذج Requirements Engineer as Architect:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "لا يلتقي بالعميل أبدًا"
+      },
+      {
+        "id": "b",
+        "text": "يشبه عمل المهندس المعماري: يجتمع بالعميل، يجمع الملاحظات، يستخدم المقابلات، ثم يصنع نماذج (مثل مسودة SRS) لعرضها على العميل قبل تطوير النسخة التفصيلية"
+      },
+      {
+        "id": "c",
+        "text": "يكتب الكود مباشرة دون نماذج"
+      },
+      {
+        "id": "d",
+        "text": "يهتم فقط بالجماليات"
+      }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 36,
+    "question": "\"The ignorant requirements engineer\" هو:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "عكس دور Software Systems Engineer"
+      },
+      {
+        "id": "b",
+        "text": "عكس دور Subject Matter Expert؛ يطرح \"الأسئلة الغبية\" ليستخرج المعرفة من الـexperts"
+      },
+      {
+        "id": "c",
+        "text": "لا يطرح أي أسئلة"
+      },
+      {
+        "id": "d",
+        "text": "لا يتواصل مع العميل"
+      }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 37,
+    "question": "من مسؤوليات الـCustomer في Requirements Engineering:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "ترك جميع القرارات لمهندس المتطلبات دون مشاركة"
+      },
+      {
+        "id": "b",
+        "text": "مساعدة مهندس المتطلبات على فهم ما يريد وما لا يريد، وتقديم Domain Knowledge، وتنبيه المهندس بسرعة عند اكتشاف أخطاء أو الحاجة إلى تغييرات ضرورية، والالتزام بالاتفاقيات"
+      },
+      {
+        "id": "c",
+        "text": "كتابة الكود مع فريق التطوير"
+      },
+      {
+        "id": "d",
+        "text": "تنفيذ اختبارات الأداء"
+      }
+    ],
+    "correctAnswer": "b"
+  },
+  {
+    "id": 38,
+    "question": "أيٌّ مما يلي ليس من الأسئلة الأربعة التي يجب على العميل الإجابة عنها مع مهندس المتطلبات؟",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Is the system that I want feasible?"
+      },
+      {
+        "id": "b",
+        "text": "How much will it cost?"
+      },
+      {
+        "id": "c",
+        "text": "How long will it take to build?"
+      },
+      {
+        "id": "d",
+        "text": "ما هي لغة البرمجة المفضلة لدى فريق التطوير؟"
+      }
+    ],
+    "correctAnswer": "d"
+  },
+  {
+    "id": 39,
+    "question": "من مشاكل Traditional Requirements Engineering المذكورة في المحاضرة:",
+    "chapter": {
+      "id": "ch1",
+      "name": "Introduction to Requirements Engineering"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "وضوح تام وعدم وجود غموض"
+      },
+      {
+        "id": "b",
+        "text": "مشاكل اللغة الطبيعية مثل الغموض (Ambiguity) وعدم الدقة (Imprecision)، وصعوبة فهم الـDomain، والتعامل مع التعقيد، وعدم الاكتمال، الإفراط في الاكتمال، الإفراط في التمديد، عدم الاتساق، والـIncorrectness"
+      },
+      {
+        "id": "c",
+        "text": "سهولة إدارة جميع التغييرات بدون أي أدوات"
+      },
+      {
+        "id": "d",
+        "text": "استحالة حدوث تناقضات في المتطلبات"
+      }
+    ],
+    "correctAnswer": "b"
+  }
+]
