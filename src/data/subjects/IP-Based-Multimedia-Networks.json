@@ -109,7 +109,7 @@
 },
 {
 "id": 5,
-"question": "لماذا لا يمكن لشبكة Packet Switching أن تعمل "بشكل مثالي" من حيث اتخاذ قرارات التوجيه؟",
+"question": "لماذا لا يمكن لشبكة Packet Switching أن تعمل \"بشكل مثالي\" من حيث اتخاذ قرارات التوجيه؟",
 "chapter": {
 "id": "ch1",
 "name": "Data Networks and the Internet - Introduction"
@@ -1486,7 +1486,7 @@
 },
 {
 "id": 56,
-"question": "أي فئة من فئات استجابات SIP تمثل نجاح العملية مثل "200 OK"؟",
+"question": "أي فئة من فئات استجابات SIP تمثل نجاح العملية مثل \"200 OK\"؟",
 "chapter": {
 "id": "ch2",
 "name": "SIP Protocol"
@@ -1619,7 +1619,6 @@
 ],
 "correctAnswer": "c"
 },
-[
   {
     "id": 61,
     "question": "ما الهدف الأساسي من تصميم بروتوكول RTP كما ورد في المادة؟",
